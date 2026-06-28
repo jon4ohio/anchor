@@ -1,5 +1,7 @@
 # Anchor
 
+Version-controlled coordination for collaborative software projects.
+
 ## Framework
 
 - [Project Entry](docs/project/entry.md)

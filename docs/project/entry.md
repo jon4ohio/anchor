@@ -35,7 +35,11 @@ Entry is the only composite contract. It aggregates pointers and project-level f
 
 # Anchor v0.1
 
+Version-controlled coordination for collaborative software projects.
+
 ## 1. Purpose
+
+**Anchor is intentionally small. Expand the framework only when repeated evidence across independent projects shows the existing contracts are insufficient.**
 
 **Anchor is a coordination framework.** It helps humans and AI work from the same shared understanding by coordinating orientation, decisions, implementation scope, expertise, execution, quality, and continuity.
 
