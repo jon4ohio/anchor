@@ -2,10 +2,16 @@
 
 Version-controlled coordination for collaborative software projects.
 
+**New here?**
+
+1. Read [Project Entry](docs/project/entry.md).
+2. Follow [Start Project](ai/playbooks/start-project.md).
+3. Experience guides are currently under validation.
+
 ## Framework
 
 - [Project Entry](docs/project/entry.md)
-- [Handoff](ai/handoff.md)
+- [Current Project Status (Handoff)](ai/handoff.md)
 
 ## Experience
 

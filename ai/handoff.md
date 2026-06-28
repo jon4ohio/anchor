@@ -9,7 +9,9 @@
 
 ## Delta
 
-Foundation published to [jon4ohio/anchor](https://github.com/jon4ohio/anchor) at `v0.1.0-foundation`. MIT license, CHANGELOG, tagline, and philosophy sentence added pre-release.
+Onboarding routing fixed (README stranger path, Quick Start bridge). Repository frozen for validation.
+
+Foundation published to [jon4ohio/anchor](https://github.com/jon4ohio/anchor) at `v0.1.0-foundation`.
 
 ## Horizon
 
@@ -33,7 +35,7 @@ None.
 ## Roadmap
 
 - **Milestone:** Foundation Complete
-- **Active phase:** Validation (portfolio first, after publish)
+- **Active phase:** Validation (portfolio first)
 - **Out of scope:** Framework changes without two-project evidence; CLI; editor adapters
 
 ---
@@ -42,7 +44,7 @@ None.
 
 | Date | Repeated explanation | Contract | Root cause | Action |
 |---|---|---|---|---|
-| — | *(no entries yet)* | — | — | — |
+| 2026-06-28 | `ai/` directory may confuse strangers (sounds AI-specific) | — | Hypothesis — defer until evidence | Observe: if two independent adopters ask "why is everything under ai/?", propose rename with evidence |
 
 **Graduation rule:** Unchanged items after three cycles promote or delete.
 
