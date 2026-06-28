@@ -3,23 +3,24 @@
 **Contract:** Handoff  
 **Problem coordinated:** What changed recently? What's next?
 
-**Updated:** 2026-06-27
+**Updated:** 2026-06-28
 
 ---
 
 ## Delta
 
-Bootstrap complete. Hygiene pass done: SPEC-001 requirements checked, contract-ownership Review recorded, initial commit tagged. Milestone: **Anchor v0.1 Bootstrap Complete**. Validation phase begins next.
+Foundation refinement complete. ADR-002, Experience scaffold, Start Project / Validate Through Use / Publish Foundation playbooks, CONTRIBUTING.md, Foundation naming. Ready to commit.
 
 ## Horizon
 
-1. Portfolio repo — Entry + Handoff under maintenance; test Skill definition.
-2. Greenfield project — day-one bootstrap via Playbook.
+1. Publish foundation — follow [Publish Foundation Playbook](playbooks/publish-foundation.md) when ready
+2. Portfolio validation — natural work, friction log
+3. Greenfield validation — Start Project Playbook
 
 ## Next
 
-- Portfolio validation (use #2), then greenfield (use #3)
-- Post-project review question after each
+- Portfolio repository — do normal work; record friction
+- Post-project review question after each session
 
 ## Blocked
 
@@ -27,14 +28,20 @@ None.
 
 ## Questions *(empirical — defer to usage)*
 
-- Entry too broad? Skills/Playbooks overlap? Handoff stay lean? Spec lifecycle states?
 - **What is a Skill?** — primary v0.2 question
+- Entry too broad? Skills/Playbooks overlap?
+
+## Roadmap
+
+- **Milestone:** Foundation Complete
+- **Active phase:** Validation (portfolio first, after publish)
+- **Out of scope:** Framework changes without two-project evidence; CLI; editor adapters
 
 ---
 
 ## Friction Log
 
-| Date | Repeated explanation | Root cause | Framework failure? | Action |
+| Date | Repeated explanation | Contract | Root cause | Action |
 |---|---|---|---|---|
 | — | *(no entries yet)* | — | — | — |
 

@@ -55,7 +55,7 @@ This repository uses Anchor to build Anchor. Every contract here exists because 
 
 3. **Reference, don't duplicate.** When another contract owns a truth, link to it. Never restate it.
 
-4. **Promote only after repetition.** One useful conversation is not a Skill. One checklist is not a Review. One workflow is not a Playbook. Only when something recurs should it become a contract.
+4. **Promote only after repetition.** One useful conversation is not a Skill. One checklist is not a Review. One workflow is not a Playbook. Only when something recurs should it become a contract. **Framework evolution** requires repeated evidence across independent projects—not anticipation from the meta-repo alone.
 
 ### Seven contracts
 
@@ -147,7 +147,7 @@ Each contract follows the same schema: Promise, Owns, Must never contain, Lifecy
 
 **Lifecycle:** Created after a workflow repeats. Updated when the workflow changes.
 
-**Implementation in this repo:** [bootstrap-project.md](../../ai/playbooks/bootstrap-project.md)
+**Implementation in this repo:** [start-project.md](../../ai/playbooks/start-project.md)
 
 ---
 
@@ -203,6 +203,20 @@ Not every phase applies to every task. Use judgment. Create an ADR only when a d
 
 ## 5. Governance
 
+### Two products
+
+Anchor has two products:
+
+- **Framework** — seven contracts (this document). Defines the system.
+- **Experience** — adoption documentation at [docs/experience/](../../docs/experience/). Teaches the system.
+- **Operations** — repeatable procedures in [Playbooks](../../ai/playbooks/) (start, validate, publish). Executes the system.
+
+Framework documents define the system. Experience documents teach the system. Operations playbooks execute the system. Experience structure may exist early; **content** expands only after the same adoption question appears twice in validation. See [ADR-002](../decisions/ADR-002-framework-vs-experience.md).
+
+### User language
+
+The framework should use the language its users already think in—not the framework author's jargon.
+
 ### Inclusion test
 
 Before creating or expanding any contract, ask:
@@ -225,6 +239,13 @@ If no, leave it in conversation or Handoff.
 | Same workflow twice | Playbook |
 | Same quality gate twice | Review |
 
+### Experience expansion
+
+| Signal | Action |
+|---|---|
+| Same adoption question twice in validation | Expand relevant Experience guide |
+| New term enters common use | Update [Experience glossary](../../docs/experience/glossary.md) |
+
 ### Post-project review question
 
 After every project using Anchor, ask:
@@ -240,11 +261,15 @@ After every project using Anchor, ask:
 
 ### Validation path
 
-1. **This repo** — Anchor dogfoods itself
-2. **Portfolio repo** — ADRs proven; Entry and Handoff under maintenance
-3. **Greenfield project** — day-one bootstrap; Playbook tested without legacy
+**Foundation Complete → Validation → Release → Evolution**
 
-Success: after three uses, the same seven contracts and four principles hold without an eighth.
+1. **This repo** — Anchor dogfoods itself; foundation milestone complete
+2. **Portfolio repo** — natural work; friction log; follow [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md)
+3. **Greenfield project** — day-one start via [Start Project Playbook](../../ai/playbooks/start-project.md)
+
+When you need to explain something, pause and ask: *Which contract owns this?*
+
+Success: after three uses, the same seven contracts and four principles hold without an eighth. No framework changes without evidence from at least two independent projects.
 
 ---
 
@@ -256,9 +281,11 @@ Success: after three uses, the same seven contracts and four principles hold wit
 | Specification | [SPEC-001](../specs/SPEC-001-knowledge-structure.md) |
 | ADR | [ADR-001](../decisions/ADR-001-contracts-not-artifacts.md) |
 | Skill | [distillation.md](../../ai/skills/distillation.md) |
-| Playbook | [bootstrap-project.md](../../ai/playbooks/bootstrap-project.md) |
+| Playbook | [start-project.md](../../ai/playbooks/start-project.md) |
 | Review | [contract-ownership.md](../../ai/reviews/contract-ownership.md) |
 | Handoff | [handoff.md](../../ai/handoff.md) |
+
+**Experience (product documentation, not contracts):** [docs/experience/](../../docs/experience/)
 
 ---
 

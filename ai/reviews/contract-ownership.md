@@ -7,7 +7,7 @@
 
 ## Checklist
 
-**Reviewed:** 2026-06-27 (bootstrap audit)
+**Reviewed:** 2026-06-28 (foundation refinement audit)
 
 - [x] Each contract file states the problem it coordinates
 - [x] Each file owns one truth domain only
@@ -22,3 +22,7 @@
 - [x] Entry indexes all operative contracts—it does not duplicate their content
 - [x] Handoff is under 40 lines (excluding friction log table)
 - [x] Skill marked experimental where definition is unresolved
+- [x] Experience docs marked as product documentation, not contracts
+- [x] Experience glossary references owners—does not define framework concepts independently
+- [x] CONTRIBUTING.md is not a contract (no contract header)
+- [x] SPEC-001 unchanged from original delivery wording

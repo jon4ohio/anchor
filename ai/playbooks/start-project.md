@@ -1,7 +1,7 @@
-# Playbook: Bootstrap a Project with Anchor
+# Playbook: Start Project
 
 **Contract:** Playbook  
-**Problem coordinated:** How do we bootstrap a new project with Anchor?
+**Problem coordinated:** How do we start a new project with Anchor?
 
 ---
 
@@ -40,7 +40,7 @@ Write a Spec for the first real work the project demands. Name the problem it co
 
 Create Playbooks only after a workflow repeats. Create Skills only after expertise questions recur across sessions or projects.
 
-For the first project, bootstrap Playbook (this file) and an experimental Skill probe may exist from the meta-repo.
+For the first project, start-project Playbook (this file) and an experimental Skill probe may exist from the meta-repo.
 
 Reference: [distillation Skill](../skills/distillation.md)
 
@@ -54,7 +54,7 @@ Write or update [Handoff](../handoff.md). Record delta, horizon, blocks, and ses
 
 ---
 
-## After Bootstrap
+## After Foundation
 
 Apply the post-project review question after each project:
 
@@ -62,10 +62,13 @@ Apply the post-project review question after each project:
 
 Record answers in Handoff or friction log.
 
+For validation on existing projects, follow [Validate Through Use](validate-through-use.md)—do normal work; do not force framework usage.
+
 ---
 
 ## References
 
 - [Project Entry](../../docs/project/entry.md)
+- [Validate Through Use](validate-through-use.md)
 - [distillation Skill](../skills/distillation.md)
 - [contract-ownership Review](../reviews/contract-ownership.md)

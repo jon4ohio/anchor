@@ -1,10 +1,11 @@
 # Anchor
 
-**Anchor is a coordination framework** that helps humans and AI work from the same shared understanding.
+## Framework
 
-This repository uses Anchor to build Anchor.
+- [Project Entry](docs/project/entry.md)
+- [Handoff](ai/handoff.md)
 
-## Start here
+## Experience
 
-- **[Project Entry](docs/project/entry.md)** — orient in under five minutes
-- **[Handoff](ai/handoff.md)** — current state and what's next
+- [Quick Start](docs/experience/quick-start.md)
+- [Glossary](docs/experience/glossary.md)
