@@ -9,13 +9,12 @@
 
 ## Delta
 
-Foundation refinement complete. ADR-002, Experience scaffold, Start Project / Validate Through Use / Publish Foundation playbooks, CONTRIBUTING.md, Foundation naming. Ready to commit.
+Foundation published to [jon4ohio/anchor](https://github.com/jon4ohio/anchor) at `v0.1.0-foundation`. MIT license, CHANGELOG, tagline, and philosophy sentence added pre-release.
 
 ## Horizon
 
-1. Publish foundation — follow [Publish Foundation Playbook](playbooks/publish-foundation.md) when ready
-2. Portfolio validation — natural work, friction log
-3. Greenfield validation — Start Project Playbook
+1. Portfolio validation — natural work, friction log
+2. Greenfield validation — Start Project Playbook
 
 ## Next
 
