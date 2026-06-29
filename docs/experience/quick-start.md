@@ -10,4 +10,4 @@
 
 ## Status
 
-**Validation Pending** — full quick start content will be written after portfolio and greenfield validation.
+**Validation Pending** — full quick start content will be written after adoption and greenfield validation.

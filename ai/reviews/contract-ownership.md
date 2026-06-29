@@ -7,7 +7,7 @@
 
 ## Checklist
 
-**Reviewed:** 2026-06-28 (foundation refinement audit)
+**Reviewed:** 2026-06-29 (boundary clarification + adoption validation playbook)
 
 - [x] Each contract file states the problem it coordinates
 - [x] Each file owns one truth domain only
@@ -21,7 +21,7 @@
 - [x] Specs reference ADRs—they do not restate rationale
 - [x] Entry indexes all operative contracts—it does not duplicate their content
 - [x] Handoff is under 40 lines (excluding friction log table)
-- [x] Skill marked experimental where definition is unresolved
+- [x] Skill marked experimental; current exemplar is what-to-keep.md
 - [x] Experience docs marked as product documentation, not contracts
 - [x] Experience glossary references owners—does not define framework concepts independently
 - [x] CONTRIBUTING.md is not a contract (no contract header)

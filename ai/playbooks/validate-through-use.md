@@ -18,6 +18,14 @@ Prescribe execution order for validating Anchor through natural project work.
 
 ---
 
+## Research question
+
+**Does this boundary reduce re-orientation while allowing adopting projects to evolve independently?**
+
+Next milestone: finish a real project without feeling the need to change Anchor.
+
+---
+
 ## Steps
 
 ### 1. Do normal work
@@ -40,7 +48,29 @@ Write Specs or ADRs only when a real decision or scope boundary appears in the w
 
 Update [Handoff](../handoff.md) delta. Add friction log rows with the Contract column filled when repetition occurs.
 
-### 5. Run post-project review
+### 5. Log adoption observations
+
+Track two hypotheses in the friction log—boundary pressure and contract use. Evidence, not speculation.
+
+**Boundary — does Anchor absorb too much?**
+
+| Observation | Possible implication |
+|---|---|
+| Repeated need to explain project tooling every session | Adopter documentation needs improvement, not Anchor |
+| Repeated pressure to add tooling concepts to Anchor | Boundary too strict—or missing coordination concept |
+| Nobody mentions tooling while using Anchor | Boundary may be invisible and working |
+| No pressure to absorb tooling into Anchor | Evidence toward boundary ADR later |
+
+**Contract — are existing contracts used?**
+
+| Observation | Possible implication |
+|---|---|
+| Entry ignored; Handoff stale; decisions stay in chat | Contracts may not provide enough value |
+| Specs never written when scope is bounded | Spec contract or adoption practice needs attention |
+| what-to-keep never consulted; same routing mistakes repeat | Skill exemplar or contract value unclear |
+| Repeated uncertainty: Handoff vs ADR vs Entry | Contract definitions may need refinement |
+
+### 6. Run post-project review
 
 After the project (or major phase), ask:
 
@@ -48,11 +78,11 @@ After the project (or major phase), ask:
 
 Record in Handoff friction log.
 
-### 6. Gate framework changes
+### 7. Gate framework changes
 
 Framework changes require the same friction in **two independent projects** before promotion or contract evolution.
 
-### 7. Expand Experience content only after repetition
+### 8. Expand Experience content only after repetition
 
 Experience structure exists at [docs/experience/](../../docs/experience/). Expand guide **content** only after friction log entries reveal repeated adoption questions—the Experience equivalent of "promote only after repetition."
 

@@ -41,7 +41,9 @@ Version-controlled coordination for collaborative software projects.
 
 **Anchor is intentionally small. Expand the framework only when repeated evidence across independent projects shows the existing contracts are insufficient.**
 
-**Anchor is a coordination framework.** It helps humans and AI work from the same shared understanding by coordinating orientation, decisions, implementation scope, expertise, execution, quality, and continuity.
+**Anchor is a coordination framework for durable project context.** It helps humans and AI work from the same shared understanding by coordinating orientation, decisions, implementation scope, expertise, execution, quality, and continuity.
+
+In the lifecycle below, **Execute** means Spec + Playbook phase ordering—not how adopting projects run tools or agents.
 
 Anchor is not a documentation convention, an AI prompt library, or a wiki. It is a set of **contracts**—reliable promises about what each piece of project knowledge owns and how collaborators should use it.
 
@@ -68,14 +70,14 @@ This repository uses Anchor to build Anchor. Every contract here exists because 
 | Project Entry | Orientation | What is this project? |
 | Specification | Implementation scope | What are we building? |
 | ADR | Decisions | Why did we decide this? |
-| Skill | Expertise | How do we perform this kind of work? |
+| Skill | Transferable coordination expertise | How do we perform this kind of work well across projects? |
 | Playbook | Execution | How do we run this workflow? |
 | Review | Quality | Is this good enough? |
 | Handoff | Continuity | What changed recently? |
 
 No eighth contract without proven repetition across real projects.
 
-**Skill is experimental in v0.1.** The contract slot exists; its precise definition is deliberately unresolved. Usage on multiple projects will reveal whether a Skill is a methodology, reusable expertise, or something else.
+**Skill hypothesis (v0.1):** A Skill captures transferable expertise that improves coordination across projects. The current exemplar is [what-to-keep.md](../../ai/skills/what-to-keep.md). Adoption validation confirms or refines.
 
 ---
 
@@ -85,7 +87,7 @@ Each contract follows the same schema: Promise, Owns, Must never contain, Lifecy
 
 ### Project Entry
 
-**Promise:** Orient a contributor in under five minutes.
+**Promise:** Orient a contributor in under five minutes—including where durable truths live.
 
 **Owns:** Identity, strategic frame, non-goals, glossary, contract index.
 
@@ -127,17 +129,15 @@ Each contract follows the same schema: Promise, Owns, Must never contain, Lifecy
 
 ### Skill *(experimental)*
 
-**Promise:** Teach repeatable expertise for a class of work.
+**Promise:** Teach transferable expertise that improves coordination across projects.
 
-**Owns:** Principles, rules, examples for a transferable capability.
+**Owns:** Principles, rules, examples for judgment, heuristics, or reasoning patterns—not tool dispatch.
 
-**Must never contain:** Project-specific requirements (Specs), sequential workflows (Playbooks), pass/fail checklists (Reviews).
+**Must never contain:** Project-specific requirements (Specs), sequential workflows (Playbooks), pass/fail checklists (Reviews), tool invocation, agent routing, or prescribing how adopting projects organize their work.
 
 **Lifecycle:** Reusable across projects. Refined continuously after repetition proves value.
 
-**Open question (v0.1):** What exactly is a Skill? Methodology, expertise body, or something else? Deferred until portfolio validation.
-
-**Implementation in this repo:** [distillation.md](../../ai/skills/distillation.md) — minimal probe, not a canonical template.
+**Implementation in this repo:** [what-to-keep.md](../../ai/skills/what-to-keep.md) — current exemplar, not the definition of all future Skills.
 
 ---
 
@@ -173,11 +173,11 @@ Each contract follows the same schema: Promise, Owns, Must never contain, Lifecy
 
 **Promise:** Coordinate continuity between work sessions.
 
-**Owns:** Delta (what changed), horizon (what is active), blocks, session questions, current branch/PR pointers.
+**Owns:** Session truth—delta (what changed), horizon (what is active), blocks, session questions, current branch/PR pointers, friction.
 
-**Must never contain:** Settled decisions, requirements, principles, checklists, strategic framing.
+**Must never contain:** Project truth that has graduated (settled decisions → ADR, requirements → Spec, evaluation criteria → Review).
 
-**Lifecycle:** Rolling document. Updated whenever meaningful work ends. Anything unchanged after three cycles graduates to another contract or is deleted.
+**Lifecycle:** Rolling document. Conversation → Handoff → contract or discarded. Anything unchanged after three cycles graduates to another contract or is deleted.
 
 **Implementation in this repo:** [handoff.md](../../ai/handoff.md)
 
@@ -193,7 +193,8 @@ Understand → Decide → Execute → Review → Improve
 
 | Phase | Contract | Action |
 |---|---|---|
-| Understand | Project Entry | Read this document. Orient to the project. |
+| Understand | Project Entry | Read this document. Orient to the project and where durable truths live. |
+| Understand | — | Consult any project-specific implementation guidance before beginning implementation work, if the adopting project provides it. |
 | Decide | ADR | Record decisions that constrain future work. |
 | Execute | Spec + Playbook | Define scope; follow execution order. |
 | Review | Review | Run applicable checklists. |
@@ -206,6 +207,12 @@ Not every phase applies to every task. Use judgment. Create an ADR only when a d
 ---
 
 ## 5. Governance
+
+### Scope
+
+Anchor preserves durable project context. It does not prescribe project execution.
+
+Future framework additions must preserve durable project context. How adopting projects organize tooling, workflows, and agents is outside Anchor.
 
 ### Two products
 
@@ -240,6 +247,7 @@ If no, leave it in conversation or Handoff.
 | Same "why" question twice | ADR |
 | Same requirements discussion twice | Spec |
 | Same expertise question across projects | Skill |
+| Same tool or agent dispatch question | Adopting project documentation |
 | Same workflow twice | Playbook |
 | Same quality gate twice | Review |
 
@@ -268,7 +276,7 @@ After every project using Anchor, ask:
 **Foundation Complete → Validation → Release → Evolution**
 
 1. **This repo** — Anchor dogfoods itself; foundation milestone complete
-2. **Portfolio repo** — natural work; friction log; follow [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md)
+2. **Adoption validation** — first adopter (natural work; friction log); follow [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md)
 3. **Greenfield project** — day-one start via [Start Project Playbook](../../ai/playbooks/start-project.md)
 
 When you need to explain something, pause and ask: *Which contract owns this?*
@@ -284,7 +292,7 @@ Success: after three uses, the same seven contracts and four principles hold wit
 | Project Entry | [entry.md](entry.md) (this file) |
 | Specification | [SPEC-001](../specs/SPEC-001-knowledge-structure.md) |
 | ADR | [ADR-001](../decisions/ADR-001-contracts-not-artifacts.md) |
-| Skill | [distillation.md](../../ai/skills/distillation.md) |
+| Skill | [what-to-keep.md](../../ai/skills/what-to-keep.md) |
 | Playbook | [start-project.md](../../ai/playbooks/start-project.md) |
 | Review | [contract-ownership.md](../../ai/reviews/contract-ownership.md) |
 | Handoff | [handoff.md](../../ai/handoff.md) |

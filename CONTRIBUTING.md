@@ -17,6 +17,20 @@ Framework changes require repeated evidence across independent projects. See [AD
 
 ---
 
+## Proposal gate
+
+Before proposing a framework addition or expansion, ask:
+
+1. Would this still be true after the current session?
+2. Would this still be true if the execution stack changed?
+3. Does this preserve durable project context, or prescribe how adopting projects should work?
+
+If (3) prescribes execution or tooling → adopting project documentation, not Anchor.
+
+Both (1) and (2) must be yes for strong durable-context candidates. Either no → Handoff or adopting-project documentation.
+
+---
+
 ## When do I write an ADR?
 
 Write an ADR when a decision **constrains future work**—not for every implementation choice.
@@ -45,6 +59,9 @@ Record evidence in Handoff friction logs before opening PRs.
 - **Editor-specific adapters** (Cursor rules, VS Code extensions) in the framework—those are ecosystem adapters, not Anchor
 - **Decision rationale outside ADRs**, requirements outside Specs, or session state outside Handoff
 - **Rewriting accepted Specs** to match later decisions—supersede or reference ADRs instead
+- **Tooling, agents, MCP servers, routing tables, or prescribing how adopting projects organize their work**
+- **Prescribing filenames or structure** for adopting-project documentation
+- **Single-project workflow conveniences** without two-project evidence
 
 ---
 

@@ -42,7 +42,7 @@ Create Playbooks only after a workflow repeats. Create Skills only after experti
 
 For the first project, start-project Playbook (this file) and an experimental Skill probe may exist from the meta-repo.
 
-Reference: [distillation Skill](../skills/distillation.md)
+Reference: [what-to-keep Skill](../skills/what-to-keep.md)
 
 ### 5. Review — Run ownership checklist
 
@@ -70,5 +70,5 @@ For validation on existing projects, follow [Validate Through Use](validate-thro
 
 - [Project Entry](../../docs/project/entry.md)
 - [Validate Through Use](validate-through-use.md)
-- [distillation Skill](../skills/distillation.md)
+- [what-to-keep Skill](../skills/what-to-keep.md)
 - [contract-ownership Review](../reviews/contract-ownership.md)
