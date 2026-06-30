@@ -72,7 +72,7 @@ Anchor has three governance layers: **Framework**, **Product**, and **Release**.
 
 > **During an Evidence Window, contributors record observations. Maintainers decide actions only after Evidence Review.**
 
-**Current state:** v0.2 released. Evidence Window **open**. See [releases/v0.2/](releases/v0.2/).
+**Current state:** [releases/current.md](releases/current.md). Record observations in [releases/v0.2/evidence.md](releases/v0.2/evidence.md).
 
 ### While the Evidence Window is open
 

@@ -15,7 +15,8 @@ Experience teaches by responsibility. The framework formalizes owners.
 | Framework vs Experience | [ADR-002](../decisions/ADR-002-framework-vs-experience.md) |
 | Product narrative (v0.2) | [ADR-003](../decisions/ADR-003-product-narrative.md) |
 | Release Governance | [releases/governance.md](../../releases/governance.md) |
-| Current project state | [Handoff](../../ai/handoff.md) |
+| Release state (weeks/months) | [releases/current.md](../../releases/current.md) |
+| Session state (hours/days) | [Handoff](../../ai/handoff.md) |
 
 ---
 

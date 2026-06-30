@@ -2,6 +2,8 @@
 
 > **Not a framework contract.** Governs how Anchor itself evolves.
 
+> **Looking for the current state of Anchor?** → [current.md](current.md)
+
 Anchor has three governance layers:
 
 | Layer | Governs | Instantiates |
@@ -18,18 +20,6 @@ Anchor has three governance layers:
 
 - [governance.md](governance.md) — Evidence Window lifecycle, freeze rules, Evidence Review
 - [templates/](templates/) — copy to start a new release instance
-
----
-
-## Current release
-
-**[v0.2](v0.2/release.md)** — Released. Evidence Window **open**.
-
-| File | Purpose |
-|------|---------|
-| [release.md](v0.2/release.md) | What shipped; window status |
-| [evidence.md](v0.2/evidence.md) | Observations during open window |
-| [decision.md](v0.2/decision.md) | Evidence Review outcome |
 
 ---
 

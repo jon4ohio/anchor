@@ -47,4 +47,4 @@ Contract-level framework friction. Product observations during open window → [
 
 **Graduation rule:** Unchanged items after three cycles promote or delete.
 
-**Release Governance:** [governance.md](../releases/governance.md) · [v0.2 evidence](../releases/v0.2/evidence.md)
+**Release Governance:** [current.md](../releases/current.md) · [governance.md](../releases/governance.md) · [v0.2 evidence](../releases/v0.2/evidence.md)
