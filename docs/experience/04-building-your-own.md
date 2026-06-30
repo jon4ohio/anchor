@@ -1,60 +1,55 @@
-# Building Your Own Anchor
+# Adopt Anchor
 
-Adopt Anchor incrementally. Keep what works. Orient what exists. Fill gaps only where coordination is missing.
+Anchor doesn't replace your documentation. It helps you coordinate what you already have.
 
-Follow the [Orient Project playbook](../../ai/playbooks/orient-project.md).
-
----
-
-## How are you adopting Anchor?
-
-### New project {#new-project}
-
-You have little to discover. Orientation establishes initial contracts:
-
-1. Assess — empty or minimal repo; identify first real work
-2. Classify — which responsibilities will you need first? (usually Entry + first Spec)
-3. Orient — create missing owners; point README to Entry
-4. Continue — normal work; Handoff between sessions
-
-See [Orient Project — Branch A](../../ai/playbooks/orient-project.md#branch-a-new-project).
-
-### Existing project {#existing-project}
-
-You have ADRs, docs, AI context files, maybe team conventions. Orientation discovers before introducing:
-
-1. Assess — list artifacts that coordinate the project today
-2. Classify — what responsibility does each serve?
-3. Orient — map to contracts; trim overlap (especially in AI context files)
-4. Fill gaps only — create contracts only where no owner exists
-5. Continue — normal work
-
-See [Orient Project — Branch B](../../ai/playbooks/orient-project.md#branch-b-existing-project).
+Keep your ADRs, architecture docs, and AI context files. Clarify what each piece owns. Add only the coordination pieces you're missing.
 
 ---
 
-## I already have…
+## What you'll have at the end
 
-| I already have… | Anchor says… |
-|-----------------|--------------|
-| ADRs | Keep them. Map to Decision responsibility. |
-| `CLAUDE.md` / AI context | Keep them. Narrow to operating instructions; point durable truth to owners. |
-| Architecture docs | Keep them. Clarify whether they own layout (reference) or decisions (ADR). |
-| Good README | Keep it. Product page for visitors; Entry for contributors. |
-| Random notes | Classify — Handoff, Spec, or discard. |
+After your first adoption session, you'll have:
 
----
+- A clear project identity — where contributors orient in under five minutes
+- Clear ownership of key knowledge — decisions, scope, and session continuity each have an owner
+- A way to continue between sessions — without reconstructing context from chat history
 
-## After orientation
-
-- Update Handoff each session
-- Promote repeated explanations per [what-to-keep Skill](../../ai/skills/what-to-keep.md)
-- Run [contract-ownership Review](../../ai/reviews/contract-ownership.md) when adding contracts
+Plan for one focused session. Most projects map what they already have in a single sitting.
 
 ---
 
-## Next
+## What you'll do
 
-[Chapter 5 — Framework Reference](05-framework-reference.md) when you need contract precision.
+1. **Understand your project as it exists today** — list what already coordinates the project (docs, ADRs, AI context, conventions).
+2. **Decide what each piece of knowledge is responsible for** — identity, decisions, scope, session state, or something else.
+3. **Add only the coordination pieces you're missing** — create contracts where no owner exists; trim overlap in AI context files.
+4. **Continue working normally** — update Handoff between sessions.
 
-[Canonical Journey](../../journey/john-ohio/README.md) for a full walkthrough.
+---
+
+## Choose your path
+
+### I have an existing project {#existing-project}
+
+You have docs, ADRs, AI context files, or team conventions. Map what exists before introducing anything new. Fill gaps only.
+
+**Next step:** [Orient Project — Branch B](../../ai/playbooks/orient-project.md#branch-b-existing-project)
+
+### I'm starting a new project {#new-project}
+
+You have little to discover. Establish project identity and first bounded scope. Skip decision records until a real decision constrains work.
+
+**Next step:** [Orient Project — Branch A](../../ai/playbooks/orient-project.md#branch-a-new-project)
+
+---
+
+## Already have ADRs or `CLAUDE.md`?
+
+Keep them. Anchor maps ownership—it does not migrate files. See [Responsibilities](03-responsibilities.md) for how mixed AI context files separate into owners.
+
+---
+
+## Want more?
+
+- **See a real example:** [See Anchor in practice](../../journey/john-ohio/README.md)
+- **Framework vocabulary** (Assess → Classify → Orient → Continue): [Framework Reference](05-framework-reference.md)

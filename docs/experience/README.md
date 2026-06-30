@@ -15,7 +15,7 @@ Teach Anchor without reading [Project Entry](../project/entry.md) first.
 | 1 | The Problem | [01-the-problem.md](01-the-problem.md) |
 | 2 | John's Journey | [02-johns-journey.md](02-johns-journey.md) |
 | 3 | Responsibilities | [03-responsibilities.md](03-responsibilities.md) |
-| 4 | Building Your Own Anchor | [04-building-your-own.md](04-building-your-own.md) |
+| 4 | Adopt Anchor | [04-building-your-own.md](04-building-your-own.md) |
 | 5 | Framework Reference | [05-framework-reference.md](05-framework-reference.md) |
 
 [Evidence Window](../../releases/governance.md) (v0.2 [open](../../releases/v0.2/release.md)) · [Glossary](glossary.md)
@@ -25,6 +25,19 @@ Teach Anchor without reading [Project Entry](../project/entry.md) first.
 ## Governance
 
 Experience may describe current framework behavior. Experience may only prescribe preferred practice after repeated validation evidence (same adoption question twice).
+
+### Editorial principles
+
+> **Spend the adopter's decision budget for them.**
+
+Every documentation change should reduce—not increase—the moments where a reader stops to ask "what should I do next?" Review criterion: *Does this reduce or increase the adopter's decision budget?*
+
+- Describe outcomes before describing activities
+- Problem before vocabulary
+- Clarity over cleverness
+- Every artifact should reduce uncertainty appropriate to its audience
+
+> **Structural changes are earned through observation** — not because an outline exists. Applies to contracts, documentation, playbooks, and governance. See [Release Governance](../../releases/governance.md).
 
 ---
 

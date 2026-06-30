@@ -16,6 +16,8 @@
 
 ## Product terms
 
+**Adopt Anchor** — [Experience Chapter 4](04-building-your-own.md); how to bring Anchor to your project.
+
 **Canonical Journey** — [John Ohio's walkthrough](../../journey/john-ohio/README.md); the canonical teaching artifact for Anchor v0.2.
 
 **Product page** — [README.md](../../README.md); discover and evaluate before adopting.

@@ -41,6 +41,9 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 | 2026-06-30 | meta-repo | friction | README was framework-first before v0.2 — resolved by product page |
 | 2026-06-30 | meta-repo | friction | start-project implied greenfield only — resolved by orient-project |
 | 2026-06-30 | portfolio (hypothesis) | friction | 74+ ADRs may intimidate newcomers — observe if repeated twice |
+| 2026-06-30 | maintainer | hypothesis | Adopters may experience onboarding friction because README and Ch. 4 require navigation through documentation structure before making project-type decisions |
+| 2026-06-30 | maintainer | hypothesis | An outcome-first Ch. 4 opening + conversational README Get started may reduce decision latency before adopters begin orienting their project |
+| 2026-06-30 | maintainer | hypothesis | Phase 2 Ch. 4 rewrite + cross-links shipped pending independent adopter behavioral signals |
 
 ---
 

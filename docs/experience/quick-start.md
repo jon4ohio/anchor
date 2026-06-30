@@ -1,9 +1,7 @@
 # Quick Start
 
-This guide moved to the Experience chapter index.
+Start here: **[Adopt Anchor](04-building-your-own.md)**
 
-**[Experience guides →](README.md)**
-
-- [Building Your Own Anchor](04-building-your-own.md)
+- [Experience guides](README.md)
 - [Orient Project playbook](../../ai/playbooks/orient-project.md)
-- [Canonical Journey](../../journey/john-ohio/README.md)
+- [See Anchor in practice](../../journey/john-ohio/README.md)

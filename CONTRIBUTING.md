@@ -88,9 +88,10 @@ Anchor has three governance layers: **Framework**, **Product**, and **Release**.
 
 ## Operations playbooks
 
-| Playbook | When to use |
+| Resource | When to use |
 |---|---|
-| [Orient Project](ai/playbooks/orient-project.md) | Adopt Anchor on any project (new or existing) |
+| [Adopt Anchor](docs/experience/04-building-your-own.md) | How to begin — adopter entry point |
+| [Orient Project](ai/playbooks/orient-project.md) | Step-by-step adoption execution (new or existing) |
 | [Start Project](ai/playbooks/start-project.md) | Redirects to Orient Project (link stability) |
 | [Validate Through Use](ai/playbooks/validate-through-use.md) | Research friction without forcing adoption |
 | [Publish Foundation](ai/playbooks/publish-foundation.md) | Publish a milestone to GitHub |
@@ -99,4 +100,4 @@ Anchor has three governance layers: **Framework**, **Product**, and **Release**.
 
 ## Questions?
 
-New to Anchor? Start with [README](README.md) and [Experience guides](docs/experience/README.md). Contributors: [Project Entry](docs/project/entry.md), then [Handoff](ai/handoff.md).
+New to Anchor? Start with [README](README.md) and [Adopt Anchor](docs/experience/04-building-your-own.md). Contributors: [Project Entry](docs/project/entry.md), then [Handoff](ai/handoff.md).

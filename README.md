@@ -52,14 +52,14 @@ Knowledge has responsibilities. Contracts formalize responsibilities.
 
 ## Get started
 
-1. **[See Anchor in practice](journey/john-ohio/README.md)** — through John's project
-2. **[Experience guides](docs/experience/README.md)** — adopt on your own repository
-3. **[Framework](docs/project/entry.md)** — when you need precision on contracts and governance
+- **New to Anchor?**  
+  [See Anchor in practice](journey/john-ohio/README.md)
 
-### How are you adopting Anchor?
+- **Ready to use Anchor?**  
+  [Adopt Anchor](docs/experience/04-building-your-own.md)
 
-- **[New project](docs/experience/04-building-your-own.md#new-project)** — establish coordination from day one
-- **[Existing project](docs/experience/04-building-your-own.md#existing-project)** — orient what you already have
+  - [Existing project](docs/experience/04-building-your-own.md#existing-project) — orient what you already have
+  - [New project](docs/experience/04-building-your-own.md#new-project) — establish coordination from day one
 
 ---
 
