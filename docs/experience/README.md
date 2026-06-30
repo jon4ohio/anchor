@@ -4,7 +4,7 @@
 
 Teach Anchor without reading [Project Entry](../project/entry.md) first.
 
-**[Follow the Canonical Journey →](../../journey/john-ohio/README.md)**
+**[See Anchor in practice →](../../journey/john-ohio/README.md)**
 
 ---
 

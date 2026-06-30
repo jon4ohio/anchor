@@ -35,7 +35,7 @@ John has been working on a side project for six months. He has ADRs, architectur
 
 Anchor does not ask him to rewrite any of it. It clarifies what each piece owns so John and his AI assistants know what to trust.
 
-**[Follow the Canonical Journey →](journey/john-ohio/README.md)**
+**[See Anchor in practice →](journey/john-ohio/README.md)**
 
 ---
 
@@ -52,7 +52,7 @@ Knowledge has responsibilities. Contracts formalize responsibilities.
 
 ## Get started
 
-1. **[Canonical Journey](journey/john-ohio/README.md)** — see Anchor through John's project
+1. **[See Anchor in practice](journey/john-ohio/README.md)** — through John's project
 2. **[Experience guides](docs/experience/README.md)** — adopt on your own repository
 3. **[Framework](docs/project/entry.md)** — when you need precision on contracts and governance
 
