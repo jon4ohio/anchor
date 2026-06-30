@@ -50,6 +50,8 @@ Each term points to its owner — see [Project Entry](../project/entry.md) for d
 
 **Foundation** — v0.1 framework structure complete. See [ADR-002](../decisions/ADR-002-framework-vs-experience.md).
 
-**v0.2** — Product narrative, Canonical Journey, Experience chapters, orient-project playbook.
+**v0.2** — Product narrative shipped. Evidence Window open. See [releases/v0.2](../../releases/v0.2/release.md).
 
-**Validation** — Apply orient-project on real repositories; log friction in Handoff.
+**Release Governance** — How Anchor evolves. See [releases/governance.md](../../releases/governance.md).
+
+**Evidence Window** — After a release ships; contributors record observations; maintainers decide at Evidence Review.

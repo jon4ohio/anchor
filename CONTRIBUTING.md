@@ -66,6 +66,26 @@ Record evidence in Handoff friction logs before opening PRs.
 
 ---
 
+## Release Governance
+
+Anchor has three governance layers: **Framework**, **Product**, and **Release**. See [releases/governance.md](releases/governance.md).
+
+> **During an Evidence Window, contributors record observations. Maintainers decide actions only after Evidence Review.**
+
+**Current state:** [releases/current.md](releases/current.md). Record observations in [releases/v0.2/evidence.md](releases/v0.2/evidence.md).
+
+### While the Evidence Window is open
+
+- **Record** observations in [releases/v0.2/evidence.md](releases/v0.2/evidence.md) or an issue — do not open structural PRs
+- **Editorial** README copy fixes are OK if meaning is unchanged
+- **Structural** product or framework changes wait for Evidence Review
+
+### Maintainer response
+
+> We're in an Evidence Window. Please record the observation in [evidence.md](releases/v0.2/evidence.md). Changes will be considered at Evidence Review.
+
+---
+
 ## Operations playbooks
 
 | Playbook | When to use |

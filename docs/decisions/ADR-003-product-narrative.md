@@ -95,22 +95,22 @@ Specifically:
 
 ### Operational Impact
 
-- v0.2 validation: internal dogfood (Anchor + portfolio) then two external repos
-- v0.3 plan from friction log, not further design abstraction
-- **Migration / rollback:** Supersede with ADR if responsibility-first product layer fails validation
+- Release Governance layer: [releases/governance.md](../../releases/governance.md); v0.2 first instance with Evidence Window open
+- Evidence Review → Decision → Next State; Major redesign not assumed
+- **Migration / rollback:** Supersede with ADR if responsibility-first product layer fails evidence review
 
 ### Risks
 
 | Risk | Likelihood | Impact | Mitigation | Owner | Review Trigger |
 |------|-----------|--------|------------|-------|----------------|
-| Responsibility vocabulary does not resonate with adopters | Medium | High | Log friction in Handoff; hold frozen phrases unless same confusion twice | Maintainer | Two-repo validation complete |
+| Responsibility vocabulary does not resonate with adopters | Medium | High | Log in release evidence.md; hold frozen phrases unless same confusion twice | Maintainer | Evidence Review complete for v0.2 |
 | Experience mistaken for complete validated guides | Medium | Medium | Teach-vs-claim banners; no normative claims in v0.2 copy | Maintainer | User reports "misleading" twice |
 
 ---
 
 ## Review Schedule
 
-- **Next review:** After v0.2 validation (5a internal + 5b external) complete
+- **Next review:** After v0.2 Evidence Review complete ([decision.md](../../releases/v0.2/decision.md))
 - **Review owner:** Project maintainer
 
 ---
@@ -128,3 +128,5 @@ Specifically:
 - [Canonical Journey](../../journey/john-ohio/README.md)
 - [Experience chapters](../../docs/experience/README.md)
 - [orient-project.md](../../ai/playbooks/orient-project.md)
+- [Release Governance](../../releases/README.md)
+- [releases/governance.md](../../releases/governance.md)
