@@ -1,74 +1,14 @@
 # Playbook: Start Project
 
+**Superseded for adoption.** Use [Orient Project](orient-project.md) instead.
+
+This file remains for link stability. New projects: [Orient Project — Branch A](orient-project.md#branch-a-new-project).
+
+---
+
+# Playbook: Start Project (legacy)
+
 **Contract:** Playbook  
 **Problem coordinated:** How do we start a new project with Anchor?
 
----
-
-## Promise
-
-Prescribe execution order for initializing Anchor on a new or existing repository.
-
----
-
-## Prerequisites
-
-- Empty or existing git repository
-- Decision to validate Anchor through usage, not further design
-
----
-
-## Steps
-
-### 1. Understand — Project Entry
-
-Create the Project Entry contract. Include: purpose, four principles, seven contracts overview, protocol, governance, contract index.
-
-If README exists, keep it minimal—a pointer to Entry, not a duplicate.
-
-### 2. Decide — ADR
-
-Record the first significant decision as an ADR if one exists (e.g., why Anchor, why these contracts). Skip if no decision constrains future work yet.
-
-See [ADR format](../../docs/decisions/ADR-001-contracts-not-artifacts.md) in this repo as one implementation.
-
-### 3. Execute — Specification
-
-Write a Spec for the first real work the project demands. Name the problem it coordinates. Define requirements and acceptance criteria. Reference ADRs; do not restate rationale.
-
-### 4. Execute — Playbook and Skill (if repetition warrants)
-
-Create Playbooks only after a workflow repeats. Create Skills only after expertise questions recur across sessions or projects.
-
-For the first project, start-project Playbook (this file) and an experimental Skill probe may exist from the meta-repo.
-
-Reference: [what-to-keep Skill](../skills/what-to-keep.md)
-
-### 5. Review — Run ownership checklist
-
-Run [contract-ownership Review](../reviews/contract-ownership.md) against all contract files. Fix violations before proceeding.
-
-### 6. Improve — Handoff
-
-Write or update [Handoff](../handoff.md). Record delta, horizon, blocks, and session questions. Note open empirical questions for v0.2.
-
----
-
-## After Foundation
-
-Apply the post-project review question after each project:
-
-> What repeated coordination problem wasn't handled cleanly by the existing contracts?
-
-Record answers in Handoff or friction log.
-
-For validation on existing projects, follow [Validate Through Use](validate-through-use.md)—do normal work; do not force framework usage.
-
----
-
-## References
-
-- [Project Entry](../../docs/project/entry.md)
-- [Validate Through Use](validate-through-use.md)
-- [what-to-keep Skill](../skills/what-to-keep.md)
-- [contract-ownership Review](../reviews/contract-ownership.md)
+See [orient-project.md](orient-project.md) for current adoption steps.
