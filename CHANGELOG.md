@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.0-product-narrative
+
+- Product page README: any-project positioning, responsibility-first promise, Canonical Journey CTA.
+- Canonical Journey: `journey/john-ohio/` — four sessions, existing-project path, continue-vs-reconstruct payoff.
+- Experience: five chapters (problem → journey → responsibilities → adoption → framework reference).
+- [ADR-003](docs/decisions/ADR-003-product-narrative.md): product narrative, teach-vs-claim, responsibility-first model.
+- [orient-project.md](ai/playbooks/orient-project.md): unified adoption playbook (new + existing branches).
+- `start-project.md` redirects to orient-project.
+- Entry §1 Purpose: assess before introducing; responsibilities precede contracts.
+- Frozen v0.2 phrases: continue instead of reconstruct; knowledge has responsibilities; contracts formalize responsibilities.
+
 ## v0.1.1-validation
 
 - Boundary clarification: Anchor preserves durable project context; does not prescribe project execution.
@@ -7,7 +18,7 @@
 - Skill renamed: distillation.md → what-to-keep.md (current exemplar).
 - Validate Through Use: adoption validation research question and observation framework.
 - CONTRIBUTING: proposal gate and durability tests.
-- Framework enters adoption validation phase; ADR-003 deferred until observed evidence.
+- Framework enters adoption validation phase.
 
 ## v0.1.0-foundation
 

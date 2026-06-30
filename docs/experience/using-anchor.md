@@ -1,22 +1,7 @@
 # Using Anchor
 
-> **Product documentation — not a framework contract.**
-> Framework contracts: [Project Entry](../project/entry.md)
+This guide moved to Experience chapters.
 
----
+**[Building Your Own Anchor →](04-building-your-own.md)** — new and existing project paths.
 
-## Goal
-
-Adopt Anchor on an existing project through natural work—not forced framework usage.
-
-## See also
-
-- [Project Entry](../project/entry.md)
-- [Start Project Playbook](../../ai/playbooks/start-project.md)
-- [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md)
-
-## Status
-
-**Validation Pending**
-
-This guide will be replaced by observations from real projects.
+**[John's Journey →](02-johns-journey.md)** — see Anchor in practice first.

@@ -43,6 +43,8 @@ Version-controlled coordination for collaborative software projects.
 
 **Anchor is a coordination framework for durable project context.** It helps humans and AI work from the same shared understanding by coordinating orientation, decisions, implementation scope, expertise, execution, quality, and continuity.
 
+**Adopting projects:** Assess existing structure before introducing new structure. Knowledge has responsibilities; contracts formalize those responsibilities. Existing ADRs, documentation, and AI context files may already serve contract roles—orientation maps ownership before creating new artifacts. See [ADR-003](../decisions/ADR-003-product-narrative.md) and [orient-project Playbook](../../ai/playbooks/orient-project.md).
+
 In the lifecycle below, **Execute** means Spec + Playbook phase ordering—not how adopting projects run tools or agents.
 
 Anchor is not a documentation convention, an AI prompt library, or a wiki. It is a set of **contracts**—reliable promises about what each piece of project knowledge owns and how collaborators should use it.
@@ -151,7 +153,7 @@ Each contract follows the same schema: Promise, Owns, Must never contain, Lifecy
 
 **Lifecycle:** Created after a workflow repeats. Updated when the workflow changes.
 
-**Implementation in this repo:** [start-project.md](../../ai/playbooks/start-project.md)
+**Implementation in this repo:** [orient-project.md](../../ai/playbooks/orient-project.md) (adoption); [start-project.md](../../ai/playbooks/start-project.md) (redirect)
 
 ---
 
@@ -277,7 +279,7 @@ After every project using Anchor, ask:
 
 1. **This repo** — Anchor dogfoods itself; foundation milestone complete
 2. **Adoption validation** — first adopter (natural work; friction log); follow [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md)
-3. **Greenfield project** — day-one start via [Start Project Playbook](../../ai/playbooks/start-project.md)
+3. **Greenfield project** — day-one start via [Orient Project Playbook](../../ai/playbooks/orient-project.md) Branch A
 
 When you need to explain something, pause and ask: *Which contract owns this?*
 
@@ -293,7 +295,7 @@ Success: after three uses, the same seven contracts and four principles hold wit
 | Specification | [SPEC-001](../specs/SPEC-001-knowledge-structure.md) |
 | ADR | [ADR-001](../decisions/ADR-001-contracts-not-artifacts.md) |
 | Skill | [what-to-keep.md](../../ai/skills/what-to-keep.md) |
-| Playbook | [start-project.md](../../ai/playbooks/start-project.md) |
+| Playbook | [orient-project.md](../../ai/playbooks/orient-project.md) |
 | Review | [contract-ownership.md](../../ai/reviews/contract-ownership.md) |
 | Handoff | [handoff.md](../../ai/handoff.md) |
 

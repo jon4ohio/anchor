@@ -1,25 +1,44 @@
 # Experience
 
 > **Product documentation — not a framework contract.**
-> Framework contracts: [Project Entry](../project/entry.md)
+
+Teach Anchor without reading [Project Entry](../project/entry.md) first.
+
+**[Follow the Canonical Journey →](../../journey/john-ohio/README.md)**
 
 ---
 
-## What this is
+## Chapters
 
-Experience documentation teaches Anchor. Framework contracts define it.
+| Ch | Title | File |
+|----|-------|------|
+| 1 | The Problem | [01-the-problem.md](01-the-problem.md) |
+| 2 | John's Journey | [02-johns-journey.md](02-johns-journey.md) |
+| 3 | Responsibilities | [03-responsibilities.md](03-responsibilities.md) |
+| 4 | Building Your Own Anchor | [04-building-your-own.md](04-building-your-own.md) |
+| 5 | Framework Reference | [05-framework-reference.md](05-framework-reference.md) |
 
-| Guide | Status |
-|---|---|
-| [Quick Start](quick-start.md) | Validation Pending |
-| [Using Anchor](using-anchor.md) | Validation Pending |
-| [Examples](examples.md) | Validation Pending |
-| [Glossary](glossary.md) | Initial vocabulary |
+[Validation (v0.2)](validation.md) · [Glossary](glossary.md)
 
-**Governance:** Expand Experience content only after the same adoption question appears twice in validation.
+---
 
-## Status
+## Governance
 
-**Validation Pending**
+Experience may describe current framework behavior. Experience may only prescribe preferred practice after repeated validation evidence (same adoption question twice).
 
-These guides will be replaced by observations from real projects.
+---
+
+## Iconic diagram
+
+```text
+Without Anchor                    With Anchor
+
+Conversation                      Conversation
+     │                                  ▼
+     ▼                            Durable Context
+Start over                              │
+                                        ▼
+                                   Continue
+```
+
+Continue instead of reconstruct.

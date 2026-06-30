@@ -1,21 +1,7 @@
 # Examples
 
-> **Product documentation — not a framework contract.**
-> Framework contracts: [Project Entry](../project/entry.md)
+The canonical teaching artifact for Anchor v0.2 is the **Canonical Journey**:
 
----
+**[John Ohio — tasklight →](../../journey/john-ohio/README.md)**
 
-## Goal
-
-Reference implementations from portfolio and greenfield validation projects.
-
-## See also
-
-- [Project Entry](../project/entry.md)
-- [Using Anchor](using-anchor.md)
-
-## Status
-
-**Validation Pending**
-
-This guide will be replaced by observations from real projects.
+Additional portfolio examples will be added after validation evidence.

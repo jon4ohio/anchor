@@ -3,39 +3,38 @@
 **Contract:** Handoff  
 **Problem coordinated:** What changed recently? What's next?
 
-**Updated:** 2026-06-29
+**Updated:** 2026-06-30
 
 ---
 
 ## Delta
 
-Phase 1 boundary clarifications shipped. Adoption validation active—framework research, not framework development. Published as `v0.1.1-validation`.
+Anchor v0.2 product narrative shipped: README, Canonical Journey, Experience chapters, ADR-003, orient-project playbook.
 
 ## Horizon
 
-1. Adoption validation — first adopter; dual observation log per [Validate Through Use](playbooks/validate-through-use.md)
-2. Greenfield validation — Start Project Playbook
+1. **5b External validation** — two repositories (see [validation.md](../docs/experience/validation.md))
+2. v0.2 close → v0.3 plan from friction evidence
 
 ## Next
 
-- First adopter — finish real work without changing Anchor; log friction
-- Post-project review question after each session
+- External greenfield + existing repo orient sessions
+- Post-project review after each validation environment
 
 ## Blocked
 
 None.
 
-## Questions *(empirical — defer to usage)*
+## Questions *(empirical)*
 
-- **Research:** Does boundary reduce re-orientation while adopters evolve independently?
-- **Skill hypothesis:** transferable coordination expertise — current exemplar is what-to-keep
-- **Boundary hypothesis:** durable context ends at framework contracts — ADR-003 deferred until observed evidence
+- Do responsibility / contract / slogan language resonate?
+- Does CLAUDE.md three-jobs example match real projects?
 
 ## Roadmap
 
-- **Milestone:** Foundation Complete
-- **Active phase:** Adoption validation (first adopter)
-- **Out of scope:** Framework changes without two-project evidence; ADR-003 before adoption evidence; CLI; editor adapters
+- **Milestone:** v0.2 deliverables 1–4 complete; 5a dogfood complete
+- **Active phase:** 5b external validation
+- **Out of scope:** Fifth principle; eighth contract; Entry §4 rewrite
 
 ---
 
@@ -43,9 +42,12 @@ None.
 
 | Date | Repeated explanation | Contract | Root cause | Action |
 |---|---|---|---|---|
-| 2026-06-28 | `ai/` directory may confuse strangers (sounds AI-specific) | — | Hypothesis — defer until evidence | Observe: if two independent adopters ask "why is everything under ai/?", propose rename with evidence |
-| 2026-06-29 | Should tooling/routing live in Anchor? | — | Boundary hypothesis — not decided | Watch during adoption: boundary vs contract-use observations |
+| 2026-06-28 | `ai/` directory may confuse strangers | — | Hypothesis | Observe: two adopters ask → propose rename |
+| 2026-06-29 | Should tooling/routing live in Anchor? | — | Boundary hypothesis | Watch during adoption |
+| 2026-06-30 | README was framework-first | Experience | Product layer missing | **Resolved v0.2** |
+| 2026-06-30 | start-project greenfield-only | Playbook | Paths conflated | **Resolved v0.2** — orient-project |
+| 2026-06-30 | Portfolio: 74+ ADRs may intimidate newcomers | Experience | Scale vs complexity | Observe if repeated twice |
 
 **Graduation rule:** Unchanged items after three cycles promote or delete.
 
-**Post-project review:** What repeated coordination problem wasn't handled cleanly by existing contracts?
+**Validation status:** [validation.md](../docs/experience/validation.md)

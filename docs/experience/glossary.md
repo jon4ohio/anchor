@@ -1,42 +1,55 @@
 # Glossary
 
 > **Product documentation — not a framework contract.**
-> This glossary orients newcomers. It does not define framework concepts—each term points to its owner.
+
+---
+
+## Frozen phrases (v0.2)
+
+**Continue instead of reconstruct.** — Anchor's transformation slogan.
+
+**Knowledge has responsibilities.** — Different kinds of project knowledge do different jobs.
+
+**Contracts formalize responsibilities.** — Named owners for each responsibility type.
+
+---
+
+## Product terms
+
+**Canonical Journey** — [John Ohio's walkthrough](../../journey/john-ohio/README.md); the canonical teaching artifact for Anchor v0.2.
+
+**Product page** — [README.md](../../README.md); discover and evaluate before adopting.
+
+**Experience** — Adoption documentation in this directory. Not a contract.
+
+**Framework** — Seven contracts defined in [Project Entry](../project/entry.md).
+
+---
+
+## Adoption terms
+
+**Responsibility** — The job a piece of knowledge performs (identity, decision, session state, etc.). Ask: *What responsibility does this knowledge have?*
+
+**Orient** — Adoption outcome: shared understanding of who owns what. Not a contract.
+
+**Assess** — Playbook-internal step: discover what exists today. User-facing language: *understand your project as it exists today.*
+
+**Discover before you introduce** — Adoption principle: map existing structure before creating new structure. See [ADR-003](../decisions/ADR-003-product-narrative.md).
 
 ---
 
 ## Contracts
 
-**Project Entry** — See [Project Entry](../project/entry.md).
+Each term points to its owner — see [Project Entry](../project/entry.md) for definitions.
 
-**Specification (Spec)** — See [Project Entry § Specification](../project/entry.md#specification).
+**Project Entry** · **Specification** · **ADR** · **Skill** · **Playbook** · **Review** · **Handoff**
 
-**ADR** — See [ADR-001](../decisions/ADR-001-contracts-not-artifacts.md).
+---
 
-**Skill** — See [Project Entry § Skill](../project/entry.md#skill-experimental).
+## Milestones
 
-**Playbook** — See [Project Entry § Playbook](../project/entry.md#playbook).
+**Foundation** — v0.1 framework structure complete. See [ADR-002](../decisions/ADR-002-framework-vs-experience.md).
 
-**Review** — See [Project Entry § Review](../project/entry.md#review).
+**v0.2** — Product narrative, Canonical Journey, Experience chapters, orient-project playbook.
 
-**Handoff** — See [Project Entry § Handoff](../project/entry.md#handoff).
-
-**Contract** — See [Project Entry glossary](../project/entry.md#glossary).
-
-## Products and milestones
-
-**Framework** — The seven contracts that define how collaborative knowledge is coordinated. See [Project Entry](../project/entry.md).
-
-**Experience** — Adoption documentation that teaches the framework. Not a contract. See [Experience README](README.md).
-
-**Foundation** — Milestone: framework structure complete, ready for validation. Release title: Anchor Foundation. See [ADR-002](../decisions/ADR-002-framework-vs-experience.md).
-
-**Validation** — Phase: apply Anchor on real projects; record friction; do not force usage. See [Validate Through Use Playbook](../../ai/playbooks/validate-through-use.md).
-
-## Actions
-
-**Promote** — See [Project Entry glossary](../project/entry.md#glossary).
-
-**Supersede** — See [Project Entry glossary](../project/entry.md#glossary).
-
-**Dogfood** — See [Project Entry glossary](../project/entry.md#glossary).
+**Validation** — Apply orient-project on real repositories; log friction in Handoff.
