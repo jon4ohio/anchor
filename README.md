@@ -29,7 +29,7 @@ Start over
 
 ---
 
-## John Ohio is building a project with AI
+## Works with your project as it is
 
 John has been working on a side project for six months. He has ADRs, architecture notes, and a `CLAUDE.md`. He has dozens of AI conversations.
 
