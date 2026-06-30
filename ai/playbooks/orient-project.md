@@ -17,6 +17,7 @@ Executes the adoption process in [Adopt Anchor](../../docs/experience/04-buildin
 
 - Git repository (empty or mature)
 - Willingness to map ownership before creating new structure
+- If someone else is executing this playbook for you, see [Delegating adoption](../../docs/experience/04-building-your-own.md#delegating-adoption)
 
 ---
 

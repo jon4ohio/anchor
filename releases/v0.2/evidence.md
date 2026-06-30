@@ -46,6 +46,8 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 | 2026-06-30 | maintainer | hypothesis | Phase 2 Ch. 4 rewrite + cross-links shipped pending independent adopter behavioral signals |
 | 2026-06-30 | maintainer | friction | Maintainer-adopter: "What to paste?", "How to start new AI session?", "Explain Anchor every time?", "Should AI read Entry first?" — Ch. 4 did not surface Entry §4 contributor model for AI |
 | 2026-06-30 | maintainer | hypothesis | Lightweight AI orientation guidance may reduce context reconstruction at the start of new AI sessions. The appropriate implementation remains unknown and may change as AI tooling evolves |
+| 2026-06-30 | maintainer | friction | Moment 2: "How do I ask my AI/collaborator to adopt Anchor correctly?" — distinct from ongoing session orientation (Working with AI) |
+| 2026-06-30 | maintainer | hypothesis | Delegating adoption guidance in Ch. 4 may reduce adoption delegation friction without duplicating playbook steps or creating official prompts |
 
 ---
 

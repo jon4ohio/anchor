@@ -43,13 +43,28 @@ You have little to discover. Establish project identity and first bounded scope.
 
 ---
 
+## Delegating adoption {#delegating-adoption}
+
+You remain responsible for which changes to keep. An AI agent or human collaborator can execute the adoption procedure on your behalf.
+
+Ask them to:
+
+- follow the [Orient Project](../../ai/playbooks/orient-project.md) playbook;
+- explain which adoption path they selected and why;
+- preserve existing documentation, introducing only the coordination that's missing;
+- show proposed changes before applying them.
+
+Once adoption is complete, use [Working with AI](#working-with-ai) for normal project sessions.
+
+---
+
 ## Already have ADRs or `CLAUDE.md`?
 
 Keep them. Anchor maps ownership—it does not migrate files. See [Responsibilities](03-responsibilities.md) for how mixed AI context files separate into owners.
 
 ---
 
-## Working with AI
+## Working with AI {#working-with-ai}
 
 **AI follows the same orientation model as every other contributor.** See [Project Entry §4](../project/entry.md) (Understand phase).
 
