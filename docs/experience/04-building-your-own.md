@@ -49,6 +49,20 @@ Keep them. Anchor maps ownership—it does not migrate files. See [Responsibilit
 
 ---
 
+## Working with AI
+
+**AI follows the same orientation model as every other contributor.** See [Project Entry §4](../project/entry.md) (Understand phase).
+
+If your AI can read the repository, ask it to orient itself before starting work—Entry first; Handoff if continuing; relevant Spec or ADR for the task.
+
+If repository access isn't available, provide only the minimum context needed—typically the Project Entry and current Handoff—rather than reproducing project documentation in the conversation.
+
+Over time, you should rely more on the repository and less on pasted conversation context. If every session requires re-explaining Anchor, durable owners (Entry, Handoff, trimmed AI context files) need strengthening—not a longer chat prompt.
+
+See [Responsibilities](03-responsibilities.md) for trimming overloaded `CLAUDE.md` or `AGENTS.md`.
+
+---
+
 ## Want more?
 
 - **See a real example:** [See Anchor in practice](../../journey/john-ohio/README.md)
