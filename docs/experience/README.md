@@ -18,7 +18,7 @@ Teach Anchor without reading [Project Entry](../project/entry.md) first.
 | 4 | Building Your Own Anchor | [04-building-your-own.md](04-building-your-own.md) |
 | 5 | Framework Reference | [05-framework-reference.md](05-framework-reference.md) |
 
-[Validation (v0.2)](validation.md) · [Glossary](glossary.md)
+[Evidence Window](../../releases/governance.md) (v0.2 [open](../../releases/v0.2/release.md)) · [Glossary](glossary.md)
 
 ---
 

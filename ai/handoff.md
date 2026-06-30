@@ -9,36 +9,33 @@
 
 ## Delta
 
-Anchor v0.2 product narrative shipped: README, Canonical Journey, Experience chapters, ADR-003, orient-project playbook.
+Release Governance shipped: `releases/` layer with governance.md, templates, v0.2 instance.
 
 ## Horizon
 
-1. **5b External validation** — two repositories (see [validation.md](../docs/experience/validation.md))
-2. v0.2 close → v0.3 plan from friction evidence
+1. **Evidence collection** — independent adopters (see [evidence.md](../releases/v0.2/evidence.md))
+2. **Evidence Review** → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
 
 ## Next
 
-- External greenfield + existing repo orient sessions
-- Post-project review after each validation environment
+- Independent greenfield + existing repo orient sessions
+- Record observations in releases/v0.2/evidence.md (not structural PRs during open window)
 
 ## Blocked
 
 None.
 
-## Questions *(empirical)*
-
-- Do responsibility / contract / slogan language resonate?
-- Does CLAUDE.md three-jobs example match real projects?
-
 ## Roadmap
 
-- **Milestone:** v0.2 deliverables 1–4 complete; 5a dogfood complete
-- **Active phase:** 5b external validation
-- **Out of scope:** Fifth principle; eighth contract; Entry §4 rewrite
+- **Release:** v0.2 shipped; Evidence Window **open**
+- **Focus:** Evidence collection → Evidence Review → Decision
+- **Out of scope:** Major redesign planning; eighth contract; Entry §4 rewrite
 
 ---
 
 ## Friction Log
+
+Contract-level framework friction. Product observations during open window → [releases/v0.2/evidence.md](../releases/v0.2/evidence.md).
 
 | Date | Repeated explanation | Contract | Root cause | Action |
 |---|---|---|---|---|
@@ -50,4 +47,4 @@ None.
 
 **Graduation rule:** Unchanged items after three cycles promote or delete.
 
-**Validation status:** [validation.md](../docs/experience/validation.md)
+**Release Governance:** [governance.md](../releases/governance.md) · [v0.2 evidence](../releases/v0.2/evidence.md)

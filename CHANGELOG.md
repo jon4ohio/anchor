@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Release Governance: `releases/` layer (governance.md, templates, v0.2 instance).
+- Evidence Window **open** for v0.2; observations in [releases/v0.2/evidence.md](releases/v0.2/evidence.md).
+- Handoff and CONTRIBUTING updated for Release layer.
+
 ## v0.2.0-product-narrative
 
 - Product page README: any-project positioning, responsibility-first promise, Canonical Journey CTA.

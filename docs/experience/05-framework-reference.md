@@ -14,6 +14,7 @@ Experience teaches by responsibility. The framework formalizes owners.
 | Why seven contracts | [ADR-001](../decisions/ADR-001-contracts-not-artifacts.md) |
 | Framework vs Experience | [ADR-002](../decisions/ADR-002-framework-vs-experience.md) |
 | Product narrative (v0.2) | [ADR-003](../decisions/ADR-003-product-narrative.md) |
+| Release Governance | [releases/governance.md](../../releases/governance.md) |
 | Current project state | [Handoff](../../ai/handoff.md) |
 
 ---
