@@ -14,6 +14,12 @@ Where Anchor is today.
 | Evidence Review | Pending |
 | Next State | Undecided |
 
+## Architecture status
+
+Framework, Product, and Release Governance are considered stable.
+
+Structural changes are deferred until Evidence Review. During the Evidence Window, record observations rather than redesigning the architecture.
+
 ## Canonical release instance
 
 [releases/v0.2/](v0.2/)
