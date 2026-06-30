@@ -9,12 +9,15 @@
 
 Prescribe execution order for orienting a project — new or existing — into Anchor's responsibility model without unnecessary migration.
 
+Executes the adoption process in [Adopt Anchor](../../docs/experience/04-building-your-own.md).
+
 ---
 
 ## Prerequisites
 
 - Git repository (empty or mature)
 - Willingness to map ownership before creating new structure
+- If someone else is executing this playbook for you, see [Delegating adoption](../../docs/experience/04-building-your-own.md#delegating-adoption)
 
 ---
 
@@ -122,7 +125,7 @@ For **research** validation (observing friction without forcing adoption), see [
 
 ## References
 
-- [Building Your Own Anchor](../../docs/experience/04-building-your-own.md)
+- [Adopt Anchor](../../docs/experience/04-building-your-own.md)
 - [Canonical Journey](../../journey/john-ohio/README.md)
 - [Project Entry](../../docs/project/entry.md)
 - [what-to-keep Skill](../skills/what-to-keep.md)

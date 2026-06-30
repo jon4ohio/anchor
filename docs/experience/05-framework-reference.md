@@ -40,6 +40,15 @@ Adoption uses a different sequence (Assess → Classify → Orient → Continue)
 
 ---
 
+## Adoption
+
+| Resource | When |
+|----------|------|
+| [Adopt Anchor](04-building-your-own.md) | How to begin — human-facing adoption guide |
+| [Orient Project](../../ai/playbooks/orient-project.md) | Step-by-step execution |
+
+---
+
 ## Playbooks
 
 | Playbook | When |

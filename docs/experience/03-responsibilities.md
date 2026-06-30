@@ -53,4 +53,4 @@ See [Session 2 snapshot](../../journey/john-ohio/sessions/02-separate/SESSION.md
 
 ## Next
 
-[Chapter 4 — Building Your Own Anchor](04-building-your-own.md)
+[Chapter 4 — Adopt Anchor](04-building-your-own.md)
