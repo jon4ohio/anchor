@@ -66,7 +66,7 @@ We need a structure that coordinates understanding, decisions, scope, expertise,
 1. A new collaborator orients via [Project Entry](../project/entry.md) in under five minutes.
 2. All seven contracts exist and pass the [contract-ownership Review](../../ai/reviews/contract-ownership.md).
 3. No contract restates content owned by another contract.
-4. Handoff records validation horizon (portfolio, greenfield) and open empirical questions.
+4. Handoff records validation horizon (validation project (existing), greenfield) and open empirical questions.
 5. Skill is marked experimental; no canonical Skill template is implied.
 
 ---
@@ -75,9 +75,9 @@ We need a structure that coordinates understanding, decisions, scope, expertise,
 
 - Markdown templates or folder structure mandates for other projects
 - YAML schemas, frontmatter requirements, or automated conformance
-- Portfolio and greenfield validation (planned, not part of this spec's delivery)
+- Existing-project and greenfield validation (planned, not part of this spec's delivery)
 - Eighth contract types
-- Resolving Skill definition (deferred to portfolio validation)
+- Resolving Skill definition (deferred to validation project (existing))
 
 ---
 

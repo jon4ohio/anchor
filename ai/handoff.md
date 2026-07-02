@@ -3,22 +3,29 @@
 **Contract:** Handoff  
 **Problem coordinated:** What changed recently? What's next?
 
-**Updated:** 2026-06-30
+**Updated:** 2026-07-02
 
 ---
 
 ## Delta
 
-Release Governance shipped: `releases/` layer with governance.md, templates, v0.2 instance.
+- **anchor-lab Experiment 001 instrument v0.2** — score-first results narrative, responsibility-only animation, opt-in Anchor mapping disclosure; live at [jon4ohio.github.io/anchor-lab](https://jon4ohio.github.io/anchor-lab/); recruitment open; synthesis pending independent participants ([repo](https://github.com/jon4ohio/anchor-lab))
+- Meta-repo `AGENTS.md` added as discoverable AI dispatch (one implementation, not framework contract); Ch. 4 updated — [evidence.md](../releases/v0.2/evidence.md)
+- Context arbitration **controlled experiment complete** on `jon-ohio-portfolio` (maintainer validation project, existing), Cursor: preliminary positive signal — [experiment log](../releases/v0.2/context-arbitration-experiment.md)
+- [POSITION-context-arbitration.md](../docs/decisions/POSITION-context-arbitration.md) remains **Proposed** (capability evidence ≠ identity claim)
+- Landscape observation recorded (OpenWiki / generated-docs class); no architectural action — [evidence.md](../releases/v0.2/evidence.md)
 
 ## Horizon
 
-1. **Evidence collection** — independent adopters (see [evidence.md](../releases/v0.2/evidence.md))
-2. **Evidence Review** → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
+1. **anchor-lab recruitment** — 3–5 independent users on lesson URL only; log [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md); write synthesis before Anchor citations
+2. **Observational phase** — field notes during normal work on `jon-ohio-portfolio` (no synthetic probes)
+3. **Independent adopters** — orient-project on Anchor itself (see [evidence.md](../releases/v0.2/evidence.md))
+4. Evidence Review → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
 
 ## Next
 
-- Independent greenfield + existing repo orient sessions
+- Recruit independent participants for anchor-lab Experiment 001 ([recruitment.md](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md))
+- Record observational sessions in [context-arbitration-experiment.md](../releases/v0.2/context-arbitration-experiment.md#observational-phase)
 - Record observations in releases/v0.2/evidence.md (not structural PRs during open window)
 
 ## Blocked
@@ -43,7 +50,7 @@ Contract-level framework friction. Product observations during open window → [
 | 2026-06-29 | Should tooling/routing live in Anchor? | — | Boundary hypothesis | Watch during adoption |
 | 2026-06-30 | README was framework-first | Experience | Product layer missing | **Resolved v0.2** |
 | 2026-06-30 | start-project greenfield-only | Playbook | Paths conflated | **Resolved v0.2** — orient-project |
-| 2026-06-30 | Portfolio: 74+ ADRs may intimidate newcomers | Experience | Scale vs complexity | Observe if repeated twice |
+| 2026-06-30 | jon-ohio-portfolio (existing validation): 74+ ADRs may intimidate newcomers | Experience | Scale vs complexity | Observe if repeated twice |
 
 **Graduation rule:** Unchanged items after three cycles promote or delete.
 

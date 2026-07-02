@@ -68,6 +68,8 @@ Keep them. Anchor maps ownership—it does not migrate files. See [Responsibilit
 
 **AI follows the same orientation model as every other contributor.** See [Project Entry §4](../project/entry.md) (Understand phase).
 
+If your project uses AI coding tools, provide a discoverable starting point that directs them to the project's canonical contracts. Keep this entry point as a dispatch layer rather than another source of project knowledge. Today, many projects implement this with files such as `AGENTS.md` or `CLAUDE.md`, but Anchor does not require a specific filename.
+
 If your AI can read the repository, ask it to orient itself before starting work—Entry first; Handoff if continuing; relevant Spec or ADR for the task.
 
 If repository access isn't available, provide only the minimum context needed—typically the Project Entry and current Handoff—rather than reproducing project documentation in the conversation.
