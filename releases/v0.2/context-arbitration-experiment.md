@@ -162,7 +162,7 @@ Use **normal work on `jon-ohio-portfolio`** — no synthetic probes. Record fiel
 
 | Date | Task (normal work) | Adapter feel | Bundle override? | Why override | Responsibility failure? | Observation ran? | Handoff updated? | Notes |
 |------|-------------------|--------------|------------------|--------------|-------------------------|------------------|------------------|-------|
-| | | invisible / intrusive / N/A | Y/N | | Y/N — layer | Y/N | Y/N / unchanged | |
+| 2026-07-02 | Phase open — no `jon-ohio-portfolio` sessions logged | N/A | N | | N | N | N | Observational phase active; record during normal portfolio work in Cursor |
 
 **Record when:**
 
