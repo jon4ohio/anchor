@@ -20,11 +20,17 @@
 
 **Canonical Journey** — [John Ohio's walkthrough](../../journey/john-ohio/README.md); the canonical teaching artifact for Anchor v0.2.
 
+**Contributing Evidence** — [Experience Chapter 6](06-contributing-evidence.md); how adopters share observations to help Anchor evolve.
+
+**Closing the Loop** — The lifecycle completes when observations from real projects improve the framework for future adopters. See [Contributing Evidence](06-contributing-evidence.md).
+
 **Product page** — [README.md](../../README.md); discover and evaluate before adopting.
 
 **Experience** — Adoption documentation in this directory. Not a contract.
 
 **Framework** — Seven contracts defined in [Project Entry](../project/entry.md).
+
+**Reference Project** — A maintainer-owned project intentionally built using Anchor to demonstrate recommended practices, validate the framework through real development, and provide a canonical example for adopters. Instances are listed in [Examples](examples.md), not here.
 
 ---
 
@@ -40,28 +46,90 @@
 
 ---
 
+## Three loops
+
+Defined in [Contributing Evidence](06-contributing-evidence.md). Each coordinates a distinct cycle.
+
+**Delivery Loop** — Build → Observe → Improve Project. Everyday engineering on your project.
+
+**Evidence Loop** — Observe → Contribute Evidence → Anchor Evolves. How project observations improve the framework.
+
+**Learning Loop** — Reference Projects → Examples → Better Adoption. How teaching artifacts improve paths for future adopters.
+
+---
+
 ## Validation environments
 
 Evidence model vocabulary — not a framework contract. See [releases/v0.2/evidence.md](../../releases/v0.2/evidence.md).
 
-| Term | Meaning |
-|------|---------|
-| **Validation environment** | A repository or project context where Anchor evidence is collected. Four types below. |
-| **Meta-repo** | Anchor validating itself (`agentic-workflow`). |
-| **Validation project (existing)** | An existing mature repository used for maintainer evidence (orient-project Branch B). Any mature repo qualifies—not a product category. Current maintainer instance: `jon-ohio-portfolio`. |
-| **Validation project (greenfield)** | A new project started with Anchor from day one (orient-project Branch A). |
-| **Independent adopter** | External project outside maintainer control; highest-value evidence for generalization. |
+**Validation environment** — *Where* evidence comes from.
 
-Historical ADRs use *portfolio validation* for validation project (existing).
+| Environment | Question it answers |
+|-------------|---------------------|
+| **Reference Project** | Does teaching match current best practice? |
+| **Existing Project** | Does adoption work without migration? |
+| **Greenfield Project** | Does day-one orientation work? |
+| **Independent Adoption** | Does it generalize without maintainer control? |
+| **Meta-repo** | Anchor validating itself (`agentic-workflow`). |
+
+Historical ADRs use *portfolio validation* for validation project (existing). **Validation project (existing)** and **Validation project (greenfield)** remain valid terms for maintainer evidence tracking.
 
 **Structured log tags** (observations `Source` column only—never use in prose):
 
 | Tag | Environment |
 |-----|-------------|
 | `meta` | Meta-repo |
+| `reference` | Reference Project |
 | `validation-existing` | Validation project (existing) |
 | `greenfield` | Validation project (greenfield) |
 | `independent` | Independent adopter |
+
+---
+
+## Evidence source
+
+**Evidence source** — *Who* produced the observation. Orthogonal to validation environment.
+
+| Source | Meaning |
+|--------|---------|
+| **Maintainer** | Maintainer-controlled environments |
+| **Contributor** | Community member, not independent adopter |
+| **Independent Adopter** | External project outside maintainer control |
+
+Environment and source combine independently—for example, a Reference Project observation is typically Maintainer-sourced; an Independent Adoption observation is Community-sourced.
+
+---
+
+## Evidence contribution
+
+**Observation Guide** — Optional template at [templates/observation-guide.md](templates/observation-guide.md) for capturing observations.
+
+### Evidence levels
+
+Weight of an observation—not a framework contract.
+
+| Level | Signal |
+|-------|--------|
+| **L0** | Read documentation |
+| **L1** | Created or scaffolded project |
+| **L2** | Used Anchor through real sessions |
+| **L3** | Completed a milestone with Handoff continuity |
+| **L4** | Completed a project |
+| **L5** | Recommended specific improvements with examples |
+
+Author self-assessment is **hypothesis** until independently corroborated.
+
+---
+
+## Teaching artifacts
+
+| Artifact | Teaches |
+|----------|---------|
+| **Canonical Journey** | How one project evolved over time |
+| **Reference Project** | Current best practice, live demonstration |
+| **Independent Adoption** | Generalization without maintainer involvement |
+
+Instances: [Examples](examples.md).
 
 ---
 

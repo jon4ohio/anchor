@@ -131,3 +131,9 @@ Observe → Record → Look for repetition → Promote only when earned
 ## Templates
 
 [releases/templates/](templates/) — instantiate per release.
+
+---
+
+## Using Anchor?
+
+If you're adopting Anchor in your own project, see [Experience → Contributing Evidence](../docs/experience/06-contributing-evidence.md) for guidance on sharing observations. This document describes how maintainers evaluate evidence; the Experience guide explains how adopters contribute it.

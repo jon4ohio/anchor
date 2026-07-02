@@ -82,5 +82,6 @@ See [Responsibilities](03-responsibilities.md) for trimming overloaded `CLAUDE.m
 
 ## Want more?
 
-- **See a real example:** [See Anchor in practice](../../journey/john-ohio/README.md)
+- **See a real example:** [Examples](examples.md) — [Canonical Journey](../../journey/john-ohio/README.md) and [Reference Projects](examples.md#reference-projects)
 - **Framework vocabulary** (Assess → Classify → Orient → Continue): [Framework Reference](05-framework-reference.md)
+- **Share what you learned:** [Contributing Evidence](06-contributing-evidence.md)
