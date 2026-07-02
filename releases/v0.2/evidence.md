@@ -28,7 +28,7 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 | # | Repository | Branch | Adopter | Status | Notes |
 |---|------------|--------|---------|--------|-------|
 | 1 | Anchor meta-repo | Existing | Maintainer | Complete | Self-review; [Handoff](../../ai/handoff.md) 2026-06-30 |
-| 2 | jon-ohio-portfolio | Existing | Maintainer | Hypothesis | [Portfolio worksheet](#portfolio-existing-project) — not independent evidence |
+| 2 | jon-ohio-portfolio | Existing | Maintainer | Experiment complete (maintainer) | [Context arbitration experiment](context-arbitration-experiment.md) — await independent replication |
 | 3 | External #1 | Greenfield (Branch A) | Independent | Pending | |
 | 4 | External #2 | Existing (Branch B) | Independent | Pending | |
 
@@ -48,6 +48,48 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 | 2026-06-30 | maintainer | hypothesis | Lightweight AI orientation guidance may reduce context reconstruction at the start of new AI sessions. The appropriate implementation remains unknown and may change as AI tooling evolves |
 | 2026-06-30 | maintainer | friction | Moment 2: "How do I ask my AI/collaborator to adopt Anchor correctly?" — distinct from ongoing session orientation (Working with AI) |
 | 2026-06-30 | maintainer | hypothesis | Delegating adoption guidance in Ch. 4 may reduce adoption delegation friction without duplicating playbook steps or creating official prompts |
+| 2026-07-01 | portfolio (hypothesis) | friction | Portfolio AI ignored stale Handoff; reconstructed from git/ADRs — unconstrained context gatherer |
+| 2026-07-01 | maintainer | hypothesis | Context arbitration: delegated responsibility resolution may produce minimum sufficient context per session |
+| 2026-07-01 | maintainer | hypothesis | Four-layer Responsibilities model — ontology only until sub-test shows predictive value vs protocol-only |
+| 2026-07-01 | portfolio (experiment) | confidence | Maintainer Sessions 0–5: treatment bundles avg 1.5 files vs baseline 8; negative control passed; stop condition not fired — [experiment log](context-arbitration-experiment.md) |
+| 2026-07-02 | maintainer | landscape | Evaluated OpenWiki (AI-oriented repo documentation). Improves implementation representation, not responsibility arbitration. Vendor-independent class: generated implementation docs. |
+| 2026-07-02 | maintainer | hypothesis | Unknown whether richer implementation documentation changes the value or operation of context arbitration. Plausible outcomes include no change, increased value, reduced value, or task-class differentiation. Requires empirical use rather than landscape analysis. |
+| 2026-07-02 | maintainer | hypothesis | When generated implementation docs conflict with contracts, canonical owner should be the contract for that responsibility (ADR for rationale, Spec for scope, Entry for identity). Untested in practice. |
+| 2026-07-02 | maintainer | confidence | Governance process functioned: external tool evaluated → classified → intentionally not promoted → remains observation. Methodological evidence, not capability evidence. |
+| 2026-07-02 | maintainer | hypothesis | Recurring theme across context arbitration, adoption teaching, and generated-docs tools: which knowledge should influence this decision right now? — label TBD; watch for independent repetition. |
+| 2026-07-02 | maintainer | confidence | anchor-lab Experiment 001 instrument deployed (Tasklight MCQ lesson, GitHub Pages). Tests experiential adoption hypothesis; independent recruitment pending — synthesis in [anchor-lab](https://github.com/jon4ohio/anchor-lab) before Anchor protocol citations. |
+
+---
+
+## Landscape observations
+
+*This subsection records current explanatory models derived from landscape observations. It is not normative framework guidance and may be revised or removed during Evidence Review.*
+
+**Retrieval pipeline (explanatory model only):** implementation representation (OpenWiki, IDE index, code graph) → retrieval → responsibility classification → context arbitration → reasoning. Anchor's contribution is concentrated in responsibility classification and context arbitration — upstream of retrieval, not documentation generation.
+
+**Non-actions from this landscape review:** no OpenWiki integration; no new position paper; no Entry/ADR/Experience changes; no roadmap items for documentation generators; no promotion of "knowledge arbitration layer" to framework identity.
+
+**Disconfirming evidence welcome:** if generated implementation docs make context arbitration unnecessary for most routine tasks, that narrows Anchor's scope — a valid finding, not a process failure.
+
+---
+
+## Context arbitration experiment
+
+**Research question:** Can Anchor reliably determine the minimum sufficient context for a session?
+
+**Governing principle:** The adapter is the instrument, not the intervention.
+
+**Full protocol:** [context-arbitration-experiment.md](context-arbitration-experiment.md) — predictions, stop condition, threats to validity, failure attribution, session log.
+
+**Position paper (draft, pending review):** [POSITION-context-arbitration.md](../../docs/decisions/POSITION-context-arbitration.md)
+
+**Label:** Maintainer experiment on `jon-ohio-portfolio` in Cursor — not independent evidence.
+
+**Result (2026-07-01):** Preliminary positive signal. Pass threshold met for feasibility. See [session log and conclusion](context-arbitration-experiment.md#conclusion).
+
+**Capability vs identity:** Experiment supports minimum sufficient context as a **capability** on one project. Does **not** support Anchor identity as responsibility-coordination framework until independent adopter replication.
+
+**Phase:** Controlled complete → [observational phase](context-arbitration-experiment.md#observational-phase) open. Highest-value next evidence: independent adopter (not more maintainer probes).
 
 ---
 
@@ -89,6 +131,8 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 ### Continue — observation
 
 Overlay adoption validates: mature ADR tree + Entry + Handoff without restructuring.
+
+Context arbitration maintainer experiment (2026-07-01): session adapter + falsification Sessions 0–5 complete. Preliminary positive signal — see [experiment log](../releases/v0.2/context-arbitration-experiment.md).
 
 ---
 

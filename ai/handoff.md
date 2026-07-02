@@ -3,22 +3,28 @@
 **Contract:** Handoff  
 **Problem coordinated:** What changed recently? What's next?
 
-**Updated:** 2026-06-30
+**Updated:** 2026-07-02
 
 ---
 
 ## Delta
 
-Release Governance shipped: `releases/` layer with governance.md, templates, v0.2 instance.
+- **anchor-lab Experiment 001 shipped** — responsibility classification lesson live at [jon4ohio.github.io/anchor-lab](https://jon4ohio.github.io/anchor-lab/) ([repo](https://github.com/jon4ohio/anchor-lab)); recruitment open; synthesis pending independent participants
+- Context arbitration **controlled experiment complete** (maintainer, portfolio, Cursor): preliminary positive signal — [experiment log](../releases/v0.2/context-arbitration-experiment.md)
+- [POSITION-context-arbitration.md](../docs/decisions/POSITION-context-arbitration.md) remains **Proposed** (capability evidence ≠ identity claim)
+- Landscape observation recorded (OpenWiki / generated-docs class); no architectural action — [evidence.md](../releases/v0.2/evidence.md)
 
 ## Horizon
 
-1. **Evidence collection** — independent adopters (see [evidence.md](../releases/v0.2/evidence.md))
-2. **Evidence Review** → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
+1. **anchor-lab recruitment** — 3–5 independent users on lesson URL only; log [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md); write synthesis before Anchor citations
+2. **Observational phase** — field notes during normal portfolio work (no synthetic probes)
+3. **Independent adopters** — orient-project on Anchor itself (see [evidence.md](../releases/v0.2/evidence.md))
+4. Evidence Review → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
 
 ## Next
 
-- Independent greenfield + existing repo orient sessions
+- Recruit independent participants for anchor-lab Experiment 001 ([recruitment.md](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md))
+- Record observational sessions in [context-arbitration-experiment.md](../releases/v0.2/context-arbitration-experiment.md#observational-phase)
 - Record observations in releases/v0.2/evidence.md (not structural PRs during open window)
 
 ## Blocked

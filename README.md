@@ -52,6 +52,9 @@ Knowledge has responsibilities. Contracts formalize responsibilities.
 
 ## Get started
 
+- **Try Anchor (Experimental):**  
+  [Responsibility classification lesson](https://jon4ohio.github.io/anchor-lab/) — 5-minute interactive exercise ([anchor-lab](https://github.com/jon4ohio/anchor-lab))
+
 - **New to Anchor?**  
   [See Anchor in practice](journey/john-ohio/README.md)
 
