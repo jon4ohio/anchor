@@ -14,7 +14,7 @@ How one project evolved over time—six months of side-project work, no wholesal
 
 ## Reference Projects
 
-Current best practice, live demonstration. Maintainer-owned projects built using Anchor to validate the framework and provide a canonical example for adopters.
+Current best practice, live demonstration — Anchor's proving ground. Maintainer-owned projects built using Anchor to validate the framework and provide a canonical example for adopters. See [Reference Projects index](../../journey/README.md).
 
 | Project | Description |
 |---------|-------------|

@@ -2,9 +2,9 @@
 
 This file is **not** a framework contract. It bridges open-source collaboration with Anchor governance.
 
-**Adopting Anchor?** Share observations from your project in [Contributing Evidence](docs/experience/06-contributing-evidence.md). Optional: [Observation Guide](docs/experience/templates/observation-guide.md).
+**Adopting Anchor?** Share observations from your project in [Contributing Evidence](docs/experience/06-contributing-evidence.md). Methodology: [docs/practices/contributing-evidence.md](docs/practices/contributing-evidence.md). Optional template: [Observation Guide](docs/experience/templates/observation-guide.md).
 
-**Proposing framework changes?** Read below. Start with [Project Entry](docs/project/entry.md) to understand the framework.
+**Proposing framework changes?** Read below. Start with [Project Entry](docs/project/entry.md) to understand the framework. Practice catalog: [docs/practices/](docs/practices/README.md).
 
 ---
 
@@ -88,15 +88,17 @@ Anchor has three governance layers: **Framework**, **Product**, and **Release**.
 
 ---
 
-## Operations playbooks
+## Practices
 
-| Resource | When to use |
-|---|---|
-| [Adopt Anchor](docs/experience/04-building-your-own.md) | How to begin — adopter entry point |
-| [Orient Project](ai/playbooks/orient-project.md) | Step-by-step adoption execution (new or existing) |
-| [Start Project](ai/playbooks/start-project.md) | Redirects to Orient Project (link stability) |
-| [Validate Through Use](ai/playbooks/validate-through-use.md) | Research friction without forcing adoption |
-| [Publish Foundation](ai/playbooks/publish-foundation.md) | Publish a milestone to GitHub |
+Repeatable engineering activities and their audience-specific expressions. See [docs/practices/](docs/practices/README.md) for the catalog.
+
+| Practice | Learning | Execution |
+|---|---|---|
+| Project Orientation | [Adopt Anchor](docs/experience/04-building-your-own.md) | [Orient Project](ai/playbooks/orient-project.md) |
+| Contributing Evidence | [Ch. 6](docs/experience/06-contributing-evidence.md) · [methodology](docs/practices/contributing-evidence.md) | [Validate Through Use](ai/playbooks/validate-through-use.md) |
+| Publish Milestone | — | [Publish Foundation](ai/playbooks/publish-foundation.md) |
+
+[Start Project](ai/playbooks/start-project.md) redirects to Orient Project (link stability).
 
 ---
 

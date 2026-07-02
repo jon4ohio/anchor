@@ -90,6 +90,7 @@ Experience structure exists at [docs/experience/](../../docs/experience/). Expan
 
 ## References
 
+- [Practice: Contributing Evidence](../../docs/practices/contributing-evidence.md)
 - [Handoff friction log](../handoff.md)
 - [ADR-002: Framework vs Experience](../../docs/decisions/ADR-002-framework-vs-experience.md)
 - [Project Entry](../../docs/project/entry.md)

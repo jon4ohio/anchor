@@ -9,12 +9,11 @@
 
 ## Delta
 
-- **Experience Ch. 6 shipped** — [Contributing Evidence](../docs/experience/06-contributing-evidence.md): Closing the Loop, three loops (Delivery / Evidence / Learning), participation model
-- **Observation Guide** — [templates/observation-guide.md](../docs/experience/templates/observation-guide.md); optional adopter capture template
-- **Glossary expanded** — Reference Project (concept), Validation Environment vs Evidence Source, evidence levels L0–L5, three loops
-- **examples.md** — two-artifact index (Canonical Journey + Reference Projects); anchor-site linked as first instance
-- **Cross-links** — governance ↔ Ch. 6, CONTRIBUTING adopter split, Ch. 4/5/quick-start forward links
-- **anchor-site scaffold** — initial Reference Project pushed to [jon4ohio/anchor-site](https://github.com/jon4ohio/anchor-site); landing page next
+- **Audience-Specific Expressions architecture** — [POSITION-audience-specific-expressions](../docs/decisions/POSITION-audience-specific-expressions.md); practices as organizing mechanism, not eighth contract
+- **docs/practices/** — catalog ([README](../docs/practices/README.md)), [project-orientation](../docs/practices/project-orientation.md), [contributing-evidence](../docs/practices/contributing-evidence.md) methodology
+- **journey/README.md** — Reference Projects as proving ground; bridge to independent adoption → evidence → evolution
+- **Cross-links** — CONTRIBUTING Practices section, evidence.md methodology link, glossary (Practice, audience-specific expression), Framework Reference, Ch. 6, observation template
+- **Gap fixes** — Ch. 6 as learning expression (methodology page separate); Skill column in catalog; playbook ↔ practice links; governance methodology link; anchor-site in journey index; README Contribute link
 
 ## Horizon
 

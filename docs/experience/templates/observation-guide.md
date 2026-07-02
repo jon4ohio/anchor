@@ -1,6 +1,6 @@
 # Observation Guide
 
-> **Optional.** Copy or adapt this guide when capturing observations about using Anchor. Share through GitHub Discussions, Issues, or pull requests on the [Anchor repository](https://github.com/jon4ohio/anchor). See [Contributing Evidence](../06-contributing-evidence.md) for why and how.
+> **Optional.** Copy or adapt this guide when capturing observations about using Anchor. Share through GitHub Discussions, Issues, or pull requests on the [Anchor repository](https://github.com/jon4ohio/anchor). See [Contributing Evidence](../06-contributing-evidence.md) for why; [methodology](../../practices/contributing-evidence.md) for how to observe well.
 
 ---
 

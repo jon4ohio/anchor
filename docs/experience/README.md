@@ -4,7 +4,7 @@
 
 Teach Anchor without reading [Project Entry](../project/entry.md) first.
 
-**See it in practice:** [Examples](examples.md) — [Canonical Journey](../../journey/john-ohio/README.md) · [Reference Projects](examples.md#reference-projects)
+**See it in practice:** [Examples](examples.md) — [Canonical Journey](../../journey/john-ohio/README.md) · [Reference Projects](../../journey/README.md)
 
 ---
 
@@ -66,3 +66,9 @@ Start over                              │
 ```
 
 Continue instead of reconstruct.
+
+---
+
+## For contributors
+
+Practice catalog and observation methodology: [docs/practices/](../practices/README.md) · [POSITION paper](../decisions/POSITION-audience-specific-expressions.md)

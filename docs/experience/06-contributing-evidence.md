@@ -109,7 +109,7 @@ Use these prompts when something stands out during normal work. You do not need 
 - When did you stop feeling like you had to reconstruct the project?
 - Was there a moment you could simply continue?
 
-For a structured capture format, see the optional [Observation Guide](templates/observation-guide.md).
+For detailed observation methodology, see [Contributing Evidence practice](../practices/contributing-evidence.md). For a structured capture format, see the optional [Observation Guide](templates/observation-guide.md).
 
 ---
 
@@ -204,4 +204,4 @@ Thank you for contributing to that journey.
 
 ---
 
-[Experience index](README.md) · [Release Governance](../../releases/governance.md)
+[Experience index](README.md) · [Release Governance](../../releases/governance.md) · [Observation methodology](../practices/contributing-evidence.md) · [Practice catalog](../practices/README.md)

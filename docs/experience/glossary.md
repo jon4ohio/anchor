@@ -30,7 +30,11 @@
 
 **Framework** — Seven contracts defined in [Project Entry](../project/entry.md).
 
-**Reference Project** — A maintainer-owned project intentionally built using Anchor to demonstrate recommended practices, validate the framework through real development, and provide a canonical example for adopters. Instances are listed in [Examples](examples.md), not here.
+**Practice** — A reusable engineering activity (e.g. project orientation, contributing evidence). Not a contract. Catalog: [docs/practices/](../practices/README.md).
+
+**Audience-specific expression** — The same practice expressed for different audiences: Experience chapters for learning, Playbooks for execution, Reviews for verification, Skills for judgment, Reference Projects for demonstration. See [POSITION-audience-specific-expressions](../decisions/POSITION-audience-specific-expressions.md).
+
+**Reference Project** — Anchor's proving ground: evidence, demonstration, teaching, and validation in one layer. Maintainer-owned projects built using Anchor to validate the framework and provide canonical examples. Index: [journey/README.md](../../journey/README.md). Instances: [Examples](examples.md).
 
 ---
 
@@ -102,7 +106,7 @@ Environment and source combine independently—for example, a Reference Project 
 
 ## Evidence contribution
 
-**Observation Guide** — Optional template at [templates/observation-guide.md](templates/observation-guide.md) for capturing observations.
+**Observation Guide** — Optional template at [templates/observation-guide.md](templates/observation-guide.md) for capturing observations. Methodology: [docs/practices/contributing-evidence.md](../practices/contributing-evidence.md).
 
 ### Evidence levels
 

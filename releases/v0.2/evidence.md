@@ -2,6 +2,8 @@
 
 Record observations from applying [orient-project](../../ai/playbooks/orient-project.md). Do not answer from theory.
 
+**How to observe:** [Contributing Evidence practice](../../docs/practices/contributing-evidence.md) — methodology for friction, confidence, and source tagging.
+
 **Governance:** [governance.md](../governance.md)
 
 ---

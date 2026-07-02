@@ -125,6 +125,7 @@ For **research** validation (observing friction without forcing adoption), see [
 
 ## References
 
+- [Practice: Project Orientation](../../docs/practices/project-orientation.md)
 - [Adopt Anchor](../../docs/experience/04-building-your-own.md)
 - [Canonical Journey](../../journey/john-ohio/README.md)
 - [Project Entry](../../docs/project/entry.md)

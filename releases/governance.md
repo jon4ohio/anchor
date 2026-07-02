@@ -10,6 +10,8 @@ Permanent definition of how Anchor evolves after a release ships.
 
 Contributions are welcome — in the form of observations, not redesigns.
 
+**How to observe:** [Contributing Evidence methodology](../docs/practices/contributing-evidence.md)
+
 ---
 
 ## Lifecycle
@@ -41,7 +43,7 @@ No assumption that Major redesign happens. Evidence leads somewhere; it does not
 
 ### While open
 
-- Contributors **record** observations in the release `evidence.md`
+- Contributors **record** observations in the release `evidence.md` — see [observation methodology](../docs/practices/contributing-evidence.md)
 - Maintainers **do not** implement structural changes from single reports
 - Issues and PRs proposing structural change: record observation; defer action to Evidence Review
 

@@ -79,6 +79,7 @@ Knowledge has responsibilities. Contracts formalize responsibilities.
 | | |
 |---|---|
 | Experience | [Chapter index](docs/experience/README.md) |
+| Contribute | [Contributing Evidence](docs/experience/06-contributing-evidence.md) |
 | Framework | [Project Entry](docs/project/entry.md) · [Handoff](ai/handoff.md) |
 
 ## License

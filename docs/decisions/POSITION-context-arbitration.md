@@ -114,6 +114,7 @@ Adapters are adopting-project concerns per CONTRIBUTING. Framework does not ship
 
 ## Related
 
+- [POSITION-audience-specific-expressions.md](POSITION-audience-specific-expressions.md)
 - [releases/v0.2/context-arbitration-experiment.md](../../releases/v0.2/context-arbitration-experiment.md)
 - [releases/v0.2/evidence.md](../../releases/v0.2/evidence.md)
 - [ADR-001](ADR-001-contracts-not-artifacts.md)

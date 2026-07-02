@@ -56,4 +56,4 @@ reconstruct                       continue instead of reconstruct
 - **Adopters:** Compare your repo to each session snapshot.
 - **Questions:** "How should I structure Handoff?" → Session 3. "When to record a decision?" → Session 2.
 
-[Back to README](../README.md) · [Experience guides](../docs/experience/README.md)
+[Back to README](../README.md) · [Reference Projects](../README.md) · [Experience guides](../../docs/experience/README.md)
