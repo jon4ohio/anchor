@@ -13,7 +13,7 @@
 ## Evidence reviewed
 
 - **Date:** 2026-07-01 (maintainer experiment only — independent adopters pending)
-- **Portfolio experiment:** [context-arbitration-experiment.md](../../releases/v0.2/context-arbitration-experiment.md)
+- **Validation project (existing) experiment:** [context-arbitration-experiment.md](../../releases/v0.2/context-arbitration-experiment.md) — conducted on `jon-ohio-portfolio`
 - **Independent adopters:** Pending
 
 ---
@@ -34,7 +34,7 @@ Maintainer falsification experiment (Sessions 0–5) on `jon-ohio-portfolio` in 
 
 **Not supported yet:** Identity — Anchor as responsibility-coordination framework.
 
-**Next:** Observational phase on portfolio (normal work) → independent adopter (highest-value evidence) → Evidence Review → one adopter validates without reading this paper → ADR if evidence supports.
+**Next:** Observational phase on `jon-ohio-portfolio` (normal work) → independent adopter (highest-value evidence) → Evidence Review → one adopter validates without reading this paper → ADR if evidence supports.
 
 ---
 
@@ -104,7 +104,7 @@ Adapters are adopting-project concerns per CONTRIBUTING. Framework does not ship
 
 ## Next steps
 
-1. ~~Complete portfolio controlled experiment~~ — done 2026-07-01
+1. ~~Complete validation project (existing) controlled experiment on `jon-ohio-portfolio`~~ — done 2026-07-01
 2. **Observational phase** — record field observations during normal work ([worksheet](../../releases/v0.2/context-arbitration-experiment.md#observational-phase))
 3. **Independent adopter** — highest-value evidence; minimal explanation; own project; own questions
 4. Evidence Review per [governance.md](../../releases/governance.md)

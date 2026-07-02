@@ -1,8 +1,10 @@
-# Context Arbitration Experiment — Portfolio
+# Context Arbitration Experiment — jon-ohio-portfolio
 
 **Status:** Controlled phase complete · Observational phase open  
 **Governance:** [governance.md](../governance.md) · [evidence.md](evidence.md)  
 **Instrument:** `jon-ohio-portfolio` → `ai/session-arbitration.md` + `.cursor/rules/anchor-session-arbitration.mdc`
+
+Conducted on `jon-ohio-portfolio`, the maintainer's validation project (existing).
 
 **Label:** Maintainer experiment — not independent evidence.
 
@@ -76,7 +78,7 @@ On stop: do not patch adapter or protocol during Evidence Window; record failure
 | **Handoff bootstrap confound** | Session 0 refresh improves continuity independent of arbitration | Log Session 0 separately; baseline uses same Handoff state |
 | **Hawthorne / demand characteristics** | AI may comply because rules are explicit | Baseline without adapter on same questions |
 
-**Can claim if successful:** Minimum sufficient context on portfolio, in Cursor, maintainer-operated sessions.
+**Can claim if successful:** Minimum sufficient context on `jon-ohio-portfolio`, in Cursor, maintainer-operated sessions.
 
 **Cannot claim alone:** Cross-project, cross-tool, or independent-adopter generalization.
 
@@ -144,7 +146,7 @@ _Not run._ Deferred to post-review if independent adopter replicates.
 
 ## Conclusion
 
-**Maintainer experiment — preliminary positive signal.** Delegated responsibility resolution produced smaller, precise context bundles on portfolio in Cursor (Sessions 1–4). Negative control (Session 3) loaded ADR-073 without Handoff-first overfit. Baseline (Session 5) exhibited unconstrained recall (8 artifacts vs 1).
+**Maintainer experiment — preliminary positive signal.** Delegated responsibility resolution produced smaller, precise context bundles on `jon-ohio-portfolio` in Cursor (Sessions 1–4). Negative control (Session 3) loaded ADR-073 without Handoff-first overfit. Baseline (Session 5) exhibited unconstrained recall (8 artifacts vs 1).
 
 **Does not generalize** without independent adopter replication per threats to validity.
 
@@ -156,7 +158,7 @@ _Not run._ Deferred to post-review if independent adopter replicates.
 
 **Phase:** Open after controlled Sessions 0–5 (2026-07-01).
 
-Use **normal portfolio work** — no synthetic probes. Record field observations during real Cursor sessions. Overrides are evidence; do not tune protocol during Evidence Window.
+Use **normal work on `jon-ohio-portfolio`** — no synthetic probes. Record field observations during real Cursor sessions. Overrides are evidence; do not tune protocol during Evidence Window.
 
 | Date | Task (normal work) | Adapter feel | Bundle override? | Why override | Responsibility failure? | Observation ran? | Handoff updated? | Notes |
 |------|-------------------|--------------|------------------|--------------|-------------------------|------------------|------------------|-------|

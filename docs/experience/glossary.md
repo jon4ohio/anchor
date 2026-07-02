@@ -40,6 +40,31 @@
 
 ---
 
+## Validation environments
+
+Evidence model vocabulary — not a framework contract. See [releases/v0.2/evidence.md](../../releases/v0.2/evidence.md).
+
+| Term | Meaning |
+|------|---------|
+| **Validation environment** | A repository or project context where Anchor evidence is collected. Four types below. |
+| **Meta-repo** | Anchor validating itself (`agentic-workflow`). |
+| **Validation project (existing)** | An existing mature repository used for maintainer evidence (orient-project Branch B). Any mature repo qualifies—not a product category. Current maintainer instance: `jon-ohio-portfolio`. |
+| **Validation project (greenfield)** | A new project started with Anchor from day one (orient-project Branch A). |
+| **Independent adopter** | External project outside maintainer control; highest-value evidence for generalization. |
+
+Historical ADRs use *portfolio validation* for validation project (existing).
+
+**Structured log tags** (observations `Source` column only—never use in prose):
+
+| Tag | Environment |
+|-----|-------------|
+| `meta` | Meta-repo |
+| `validation-existing` | Validation project (existing) |
+| `greenfield` | Validation project (greenfield) |
+| `independent` | Independent adopter |
+
+---
+
 ## Contracts
 
 Each term points to its owner — see [Project Entry](../project/entry.md) for definitions.
