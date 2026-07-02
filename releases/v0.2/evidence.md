@@ -61,6 +61,44 @@ Record observations from applying [orient-project](../../ai/playbooks/orient-pro
 | 2026-07-02 | maintainer | confidence | anchor-lab Experiment 001 instrument deployed (Tasklight MCQ lesson, GitHub Pages). Tests experiential adoption hypothesis; independent recruitment pending — synthesis in [anchor-lab](https://github.com/jon4ohio/anchor-lab) before Anchor protocol citations. |
 | 2026-07-02 | maintainer | confidence | Meta-repo dogfoods thin `AGENTS.md` as one implementation of discoverable AI dispatch (not a framework contract). Capability ≠ filename; Entry remains canonical. Adopting-project concern. |
 | 2026-07-02 | maintainer | hypothesis | Discoverable AI starting points may reduce session-start friction for tool-using collaborators. `AGENTS.md` is a common implementation today—not a framework requirement. |
+| 2026-07-02 | meta-repo | confidence | PR #7 merged to `main` — v0.2 evidence follow-up (AGENTS.md dispatch, arbitration experiment log, evidence chain) without framework contract changes |
+| 2026-07-02 | meta-repo | confidence | Plan-execution session used `AGENTS.md` → Entry → Handoff routing; no contract duplication in dispatch layer |
+
+---
+
+## anchor-lab Experiment 001 — recruitment tracker
+
+**Instrument:** [jon4ohio.github.io/anchor-lab](https://jon4ohio.github.io/anchor-lab/) (v0.2)  
+**Protocol:** [experiment-001](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001.md)  
+**Recruitment:** [recruitment.md](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md)  
+**Observations log:** [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md)  
+**Synthesis gate:** Write synthesis in anchor-lab **before** citing results in Anchor protocol docs.
+
+| Slot | Status | Invited | Completed | Notes |
+|------|--------|---------|-----------|-------|
+| 1 | Open | — | — | Independent participant; lesson URL only |
+| 2 | Open | — | — | Independent participant; lesson URL only |
+| 3 | Open | — | — | Independent participant; lesson URL only |
+| 4 | Open | — | — | Optional (target 3–5) |
+| 5 | Open | — | — | Optional (target 3–5) |
+
+**Recruitment status (2026-07-02):** Open — 0/3 minimum participants completed. Maintainer action: distribute recruitment link per anchor-lab protocol.
+
+---
+
+## Independent adopter recruitment tracker
+
+**Playbook:** [orient-project](../../ai/playbooks/orient-project.md)  
+**Governance requirement:** At least two independent repositories (minimum one non-author adopter) before Evidence Window exit.
+
+| Environment | Branch | Status | Repository | Adopter | Invited | Session complete | Worksheet |
+|-------------|--------|--------|------------|---------|---------|------------------|-----------|
+| Greenfield | A | Open | — | Independent | — | — | [Per-environment worksheet](#per-environment-worksheet) |
+| Existing | B | Open | — | Independent | — | — | [Per-environment worksheet](#per-environment-worksheet) |
+
+**Recruitment status (2026-07-02):** Open — 0/2 independent adopters. Record friction and confidence in **Observations log** after each session; fill worksheet rows in this file.
+
+**Invitation criteria:** Participant has not authored Anchor framework docs; runs orient-project on their own project without maintainer coaching during the session.
 
 ---
 
@@ -205,11 +243,44 @@ After one work session, was reconstruction avoided?
 
 ---
 
+## Evidence Review readiness (maintainer pre-review)
+
+**Date:** 2026-07-02  
+**Type:** Interim maintainer inventory — **not** full Evidence Review. Window remains open.
+
+### 1. Repeated observations collected
+
+| Observation | Repetitions | Source |
+|-------------|-------------|--------|
+| README/framework-first onboarding friction | 1 (resolved v0.2) | meta-repo |
+| Greenfield-only adoption path implied | 1 (resolved v0.2) | meta-repo |
+| AI session-start orientation friction | 2+ | maintainer-adopter, Ch. 4 work |
+| Unconstrained AI context gatherer ignores Handoff | 1 | jon-ohio-portfolio |
+| 74+ ADRs may intimidate newcomers | 1 (watch) | validation-existing |
+
+### 2. Confidence gained (maintainer environments only)
+
+- orient-project + product narrative reduced maintainer onboarding friction (resolved items).
+- Context arbitration feasibility on one repo (maintainer, Cursor) — preliminary positive signal.
+- anchor-lab instrument v0.2 deployed; classification link untested with independent participants.
+- Governance process: landscape tools classified without premature promotion.
+
+### 3. Does evidence justify changing the product?
+
+**Maintainer assessment:** Insufficient for structural change. Independent adopter evidence missing for both orient-project adoption and context-arbitration replication. anchor-lab classification link untested.
+
+**Exit blockers:** Independent adopter greenfield (Branch A); independent adopter existing (Branch B); anchor-lab synthesis (0/3 participants minimum).
+
+Full Evidence Review and [decision.md](decision.md) Next State selection deferred until exit blockers clear. See [governance.md](../governance.md) exit conditions.
+
+---
+
 ## Evidence Window exit checklist
 
 - [x] Maintainer self-review (meta-repo)
 - [x] Existing validation project hypothesis documented
-- [ ] Independent adopter — greenfield (Branch A)
-- [ ] Independent adopter — existing project (Branch B)
-- [ ] Evidence Review completed
+- [ ] Independent adopter — greenfield (Branch A) — [tracker](#independent-adopter-recruitment-tracker)
+- [ ] Independent adopter — existing project (Branch B) — [tracker](#independent-adopter-recruitment-tracker)
+- [ ] anchor-lab Experiment 001 — 3+ independent participants — [tracker](#anchor-lab-experiment-001--recruitment-tracker)
+- [ ] Evidence Review completed (full; not pre-review only)
 - [ ] [decision.md](decision.md) filed with Next State

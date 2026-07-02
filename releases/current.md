@@ -27,6 +27,7 @@ Structural changes are deferred until Evidence Review. During the Evidence Windo
 - [release.md](v0.2/release.md)
 - [evidence.md](v0.2/evidence.md) — record observations during open window
 - [decision.md](v0.2/decision.md)
+- [validation-roadmap-status.md](validation-roadmap-status.md) — validation tracker (issue #1 mirror)
 
 ## Rules
 

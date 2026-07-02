@@ -9,34 +9,33 @@
 
 ## Delta
 
-- **anchor-lab Experiment 001 instrument v0.2** — score-first results narrative, responsibility-only animation, opt-in Anchor mapping disclosure; live at [jon4ohio.github.io/anchor-lab](https://jon4ohio.github.io/anchor-lab/); recruitment open; synthesis pending independent participants ([repo](https://github.com/jon4ohio/anchor-lab))
-- Meta-repo `AGENTS.md` added as discoverable AI dispatch (one implementation, not framework contract); Ch. 4 updated — [evidence.md](../releases/v0.2/evidence.md)
-- Context arbitration **controlled experiment complete** on `jon-ohio-portfolio` (maintainer validation project, existing), Cursor: preliminary positive signal — [experiment log](../releases/v0.2/context-arbitration-experiment.md)
-- [POSITION-context-arbitration.md](../docs/decisions/POSITION-context-arbitration.md) remains **Proposed** (capability evidence ≠ identity claim)
-- Landscape observation recorded (OpenWiki / generated-docs class); no architectural action — [evidence.md](../releases/v0.2/evidence.md)
+- **PR #7 merged to `main`** — v0.2 evidence follow-up: `AGENTS.md` dispatch, context arbitration experiment log, evidence chain, Ch. 4 AI orientation ([PR](https://github.com/jon4ohio/anchor/pull/7))
+- **Validation tracking added** — anchor-lab and independent adopter recruitment trackers in [evidence.md](../releases/v0.2/evidence.md); maintainer pre-review inventory in [decision.md](../releases/v0.2/decision.md)
+- **Observational phase** — context arbitration worksheet initialized; `jon-ohio-portfolio` sessions pending
+- **anchor-lab Experiment 001** — instrument v0.2 live; 0/3 minimum participants; synthesis pending ([recruitment](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md))
 
 ## Horizon
 
-1. **anchor-lab recruitment** — 3–5 independent users on lesson URL only; log [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md); write synthesis before Anchor citations
-2. **Observational phase** — field notes during normal work on `jon-ohio-portfolio` (no synthetic probes)
-3. **Independent adopters** — orient-project on Anchor itself (see [evidence.md](../releases/v0.2/evidence.md))
-4. Evidence Review → Decision → Next State ([decision.md](../releases/v0.2/decision.md))
+1. **anchor-lab recruitment** — 3–5 independent users; log [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md); synthesis before Anchor citations
+2. **Independent adopters** — orient-project Branch A (greenfield) + Branch B (existing); record in [evidence.md](../releases/v0.2/evidence.md)
+3. **Observational phase** — field notes during normal work on `jon-ohio-portfolio`
+4. **Full Evidence Review** — when exit checklist clears → Next State in [decision.md](../releases/v0.2/decision.md)
 
 ## Next
 
-- Recruit independent participants for anchor-lab Experiment 001 ([recruitment.md](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md))
-- Record observational sessions in [context-arbitration-experiment.md](../releases/v0.2/context-arbitration-experiment.md#observational-phase)
-- Record observations in releases/v0.2/evidence.md (not structural PRs during open window)
+- Distribute anchor-lab recruitment link per [recruitment.md](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md)
+- Invite two independent orient-project adopters (Branch A + B)
+- Record `jon-ohio-portfolio` observational sessions in [context-arbitration-experiment.md](../releases/v0.2/context-arbitration-experiment.md#observational-phase)
 
 ## Blocked
 
-None.
+- **Full Evidence Review** — requires 2 independent adopter repositories + anchor-lab synthesis (see [decision.md](../releases/v0.2/decision.md))
 
 ## Roadmap
 
 - **Release:** v0.2 shipped; Evidence Window **open**
-- **Focus:** Evidence collection → Evidence Review → Decision
-- **Out of scope:** Major redesign planning; eighth contract; Entry §4 rewrite
+- **Focus:** Recruitment → evidence collection → full Evidence Review → Decision
+- **Out of scope:** Major redesign; eighth contract; Entry §4 rewrite
 
 ---
 
