@@ -2,7 +2,9 @@
 
 This file is **not** a framework contract. It bridges open-source collaboration with Anchor governance.
 
-Start with [Project Entry](docs/project/entry.md) to understand the framework.
+**Adopting Anchor?** Share observations from your project in [Contributing Evidence](docs/experience/06-contributing-evidence.md). Optional: [Observation Guide](docs/experience/templates/observation-guide.md).
+
+**Proposing framework changes?** Read below. Start with [Project Entry](docs/project/entry.md) to understand the framework.
 
 ---
 
@@ -100,4 +102,4 @@ Anchor has three governance layers: **Framework**, **Product**, and **Release**.
 
 ## Questions?
 
-New to Anchor? Start with [README](README.md) and [Adopt Anchor](docs/experience/04-building-your-own.md). Contributors: [Project Entry](docs/project/entry.md), then [Handoff](ai/handoff.md).
+New to Anchor? Start with [README](README.md) and [Adopt Anchor](docs/experience/04-building-your-own.md). Used Anchor on a project? [Contributing Evidence](docs/experience/06-contributing-evidence.md). Framework contributors: [Project Entry](docs/project/entry.md), then [Handoff](ai/handoff.md).

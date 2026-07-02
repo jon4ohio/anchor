@@ -46,6 +46,9 @@ Adoption uses a different sequence (Assess → Classify → Orient → Continue)
 |----------|------|
 | [Adopt Anchor](04-building-your-own.md) | How to begin — human-facing adoption guide |
 | [Orient Project](../../ai/playbooks/orient-project.md) | Step-by-step execution |
+| [Contributing Evidence](06-contributing-evidence.md) | Adopter handoff back to the framework |
+| [Examples](examples.md) | Teaching artifacts — Journey and Reference Projects |
+| [Glossary — Reference Project](glossary.md#product-terms) | Concept definition (instances in Examples) |
 
 ---
 

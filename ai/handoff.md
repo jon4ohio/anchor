@@ -9,17 +9,19 @@
 
 ## Delta
 
-- **PR #7 merged to `main`** — v0.2 evidence follow-up: `AGENTS.md` dispatch, context arbitration experiment log, evidence chain, Ch. 4 AI orientation ([PR](https://github.com/jon4ohio/anchor/pull/7))
-- **Validation tracking added** — anchor-lab and independent adopter recruitment trackers in [evidence.md](../releases/v0.2/evidence.md); maintainer pre-review inventory in [decision.md](../releases/v0.2/decision.md)
-- **Observational phase** — context arbitration worksheet initialized; `jon-ohio-portfolio` sessions pending
-- **anchor-lab Experiment 001** — instrument v0.2 live; 0/3 minimum participants; synthesis pending ([recruitment](https://github.com/jon4ohio/anchor-lab/blob/main/docs/recruitment.md))
+- **Experience Ch. 6 shipped** — [Contributing Evidence](../docs/experience/06-contributing-evidence.md): Closing the Loop, three loops (Delivery / Evidence / Learning), participation model
+- **Observation Guide** — [templates/observation-guide.md](../docs/experience/templates/observation-guide.md); optional adopter capture template
+- **Glossary expanded** — Reference Project (concept), Validation Environment vs Evidence Source, evidence levels L0–L5, three loops
+- **examples.md** — two-artifact index (Canonical Journey + Reference Projects); anchor-site linked as first instance
+- **Cross-links** — governance ↔ Ch. 6, CONTRIBUTING adopter split, Ch. 4/5/quick-start forward links
+- **anchor-site scaffold** — initial Reference Project pushed to [jon4ohio/anchor-site](https://github.com/jon4ohio/anchor-site); landing page next
 
 ## Horizon
 
-1. **anchor-lab recruitment** — 3–5 independent users; log [experiment-001-observations](https://github.com/jon4ohio/anchor-lab/blob/main/research/experiment-001-observations.md); synthesis before Anchor citations
-2. **Independent adopters** — orient-project Branch A (greenfield) + Branch B (existing); record in [evidence.md](../releases/v0.2/evidence.md)
-3. **Observational phase** — field notes during normal work on `jon-ohio-portfolio`
-4. **Full Evidence Review** — when exit checklist clears → Next State in [decision.md](../releases/v0.2/decision.md)
+1. **PR 2 — anchor-site** — demonstrate Ch. 6 lifecycle in [anchor-site](https://github.com/jon4ohio/anchor-site); first observations via Observation Guide
+2. **anchor-lab recruitment** — 3–5 independent users; synthesis before Anchor citations
+3. **Independent adopters** — orient-project Branch A + Branch B; record in [evidence.md](../releases/v0.2/evidence.md)
+4. **Full Evidence Review** — when exit checklist clears → [decision.md](../releases/v0.2/decision.md)
 
 ## Next
 

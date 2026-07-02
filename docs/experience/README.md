@@ -4,7 +4,17 @@
 
 Teach Anchor without reading [Project Entry](../project/entry.md) first.
 
-**[See Anchor in practice →](../../journey/john-ohio/README.md)**
+**See it in practice:** [Examples](examples.md) — [Canonical Journey](../../journey/john-ohio/README.md) · [Reference Projects](examples.md#reference-projects)
+
+---
+
+## Participation journey
+
+```text
+Read → Understand → Adopt → Build → Observe
+  → Contribute Evidence → See Reference Projects
+  → Become an Independent Adopter → Help Anchor Evolve
+```
 
 ---
 
@@ -17,8 +27,9 @@ Teach Anchor without reading [Project Entry](../project/entry.md) first.
 | 3 | Responsibilities | [03-responsibilities.md](03-responsibilities.md) |
 | 4 | Adopt Anchor | [04-building-your-own.md](04-building-your-own.md) |
 | 5 | Framework Reference | [05-framework-reference.md](05-framework-reference.md) |
+| 6 | Contributing Evidence | [06-contributing-evidence.md](06-contributing-evidence.md) |
 
-[Evidence Window](../../releases/governance.md) (v0.2 [open](../../releases/v0.2/release.md)) · [Glossary](glossary.md)
+[Evidence Window](../../releases/governance.md) (v0.2 [open](../../releases/v0.2/release.md)) · [Glossary](glossary.md) · [Examples](examples.md)
 
 ---
 
