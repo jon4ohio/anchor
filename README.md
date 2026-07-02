@@ -31,7 +31,7 @@ Start over
 
 ## Works with your project as it is
 
-John has been working on a side project for six months. He has ADRs, architecture notes, and a `CLAUDE.md`. He has dozens of AI conversations.
+**Scenario**: John has been working on a side project for six months. He has ADRs, architecture notes, and a `CLAUDE.md`. He has dozens of AI conversations.
 
 Anchor does not ask him to rewrite any of it. It clarifies what each piece owns so John and his AI assistants know what to trust.
 
